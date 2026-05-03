@@ -6,8 +6,17 @@ import requests
 import time
 import uuid
 
-# Use environment variable for the API Key. DO NOT hardcode the key here.
-API_KEY = os.environ.get('GEMINI_API_KEY')
+# Load API key from .env file if it exists (for local server storage)
+def load_env():
+    env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')
+    if os.path.exists(env_path):
+        with open(env_path, 'r') as f:
+            for line in f:
+                if line.startswith('GEMINI_API_KEY='):
+                    return line.strip().split('=', 1)[1]
+    return os.environ.get('GEMINI_API_KEY')
+
+API_KEY = load_env()
 
 # Latest Models (as of May 2026) in order of preference/performance
 MODELS = [
@@ -26,7 +35,7 @@ def get_api_url(model_name):
 
 def generate_multiple_articles(count=5):
     if not API_KEY:
-        print("Error: GEMINI_API_KEY environment variable is not set.")
+        print("Error: GEMINI_API_KEY is not set in .env or environment variables.")
         return []
 
     selected_genres = random.sample(GENRES, count) if count <= len(GENRES) else [random.choice(GENRES) for _ in range(count)]
