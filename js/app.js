@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const template = document.getElementById('articleTemplate');
 
     // Fetch data
-    fetch('data/articles.json')
+    fetch('data/articles.json?v=' + new Date().getTime())
         .then(response => {
             if (!response.ok) {
                 throw new Error('Data file not found. Wait for the daily generator to create articles.');
