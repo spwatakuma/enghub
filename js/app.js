@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let allArticles = [];
     let currentGenre = 'All';
     let readArticles = JSON.parse(localStorage.getItem('enghub_read_articles') || '[]');
+    // Global selected level (persisted)
+    let globalSelectedLevel = localStorage.getItem('enghub_global_level') || '1';
 
     const articlesContainer = document.getElementById('articlesContainer');
     const template = document.getElementById('articleTemplate');
@@ -49,6 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         filtered.forEach(article => {
             const clone = template.content.cloneNode(true);
             const articleElement = clone.querySelector('.article-card');
+            articleElement.dataset.articleId = article.id;
             
             // Set static meta
             clone.querySelector('.genre-badge').textContent = article.genre;
@@ -63,11 +66,16 @@ document.addEventListener('DOMContentLoaded', () => {
             // Handle local level buttons
             const levelBtns = clone.querySelectorAll('.local-level-btn');
             levelBtns.forEach(btn => {
+                // Set initial active state based on global level
+                if (btn.dataset.level === globalSelectedLevel) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+
                 btn.addEventListener('click', (e) => {
-                    levelBtns.forEach(b => b.classList.remove('active'));
-                    e.target.classList.add('active');
                     const level = e.target.dataset.level;
-                    renderArticleLevel(articleElement, article, level);
+                    updateGlobalLevel(level);
                 });
             });
 
@@ -100,10 +108,37 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
 
-            // Initial render (Level 1)
-            renderArticleLevel(articleElement, article, '1');
+            // Initial render (Global selected level)
+            renderArticleLevel(articleElement, article, globalSelectedLevel);
             
             articlesContainer.appendChild(clone);
+        });
+    }
+
+    function updateGlobalLevel(newLevel) {
+        globalSelectedLevel = newLevel;
+        localStorage.setItem('enghub_global_level', globalSelectedLevel);
+
+        // Update all visible cards
+        const articleCards = document.querySelectorAll('.article-card');
+        articleCards.forEach(card => {
+            const articleId = card.dataset.articleId;
+            const articleData = allArticles.find(a => a.id === articleId);
+            
+            if (articleData) {
+                // Update buttons
+                const btns = card.querySelectorAll('.local-level-btn');
+                btns.forEach(btn => {
+                    if (btn.dataset.level === globalSelectedLevel) {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                });
+
+                // Update content
+                renderArticleLevel(card, articleData, globalSelectedLevel);
+            }
         });
     }
 
