@@ -79,6 +79,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             });
 
+            // Vocab Toggle
+            const vocabToggleBtn = clone.querySelector('.vocab-toggle-btn');
+            const vocabContent = clone.querySelector('.vocab-content');
+            vocabToggleBtn.addEventListener('click', () => {
+                const isHidden = vocabContent.style.display === 'none';
+                vocabContent.style.display = isHidden ? 'block' : 'none';
+                vocabToggleBtn.textContent = isHidden ? '📖 Hide Key Vocabulary' : '📖 View Key Vocabulary';
+            });
+
             // Toggle all translations
             const toggleAllBtn = clone.querySelector('.toggle-all-btn');
             toggleAllBtn.addEventListener('click', (e) => {
@@ -152,6 +161,13 @@ document.addEventListener('DOMContentLoaded', () => {
         // Render Vocabulary if it exists
         const vocabSection = articleElement.querySelector('.vocabulary-section');
         const vocabList = articleElement.querySelector('.vocab-list');
+        const vocabToggleBtn = articleElement.querySelector('.vocab-toggle-btn');
+        const vocabContent = articleElement.querySelector('.vocab-content');
+        
+        // Reset vocab toggle state when level changes
+        vocabContent.style.display = 'none';
+        vocabToggleBtn.textContent = '📖 View Key Vocabulary';
+
         if (levelData.vocabulary && levelData.vocabulary.length > 0) {
             vocabList.innerHTML = '';
             levelData.vocabulary.forEach(v => {
@@ -162,6 +178,16 @@ document.addEventListener('DOMContentLoaded', () => {
             vocabSection.style.display = 'block';
         } else {
             vocabSection.style.display = 'none';
+        }
+
+        // Render Grammar section
+        const grammarSection = articleElement.querySelector('.grammar-section');
+        const grammarContent = articleElement.querySelector('.grammar-content');
+        if (levelData.grammar) {
+            grammarContent.textContent = levelData.grammar;
+            grammarSection.style.display = 'block';
+        } else {
+            grammarSection.style.display = 'none';
         }
 
         const contentDiv = articleElement.querySelector('.article-content');

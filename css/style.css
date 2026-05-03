@@ -259,18 +259,33 @@ body {
 
 /* Vocabulary Section */
 .vocabulary-section {
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    padding: 16px;
     margin-bottom: 24px;
 }
 
-.vocabulary-section h3 {
-    font-size: 1rem;
+.vocab-toggle-btn {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
     color: var(--text-muted);
-    margin-bottom: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.vocab-toggle-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.vocab-content {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 8px 8px;
+    padding: 16px;
+    border: 1px solid var(--glass-border);
+    border-top: none;
+    margin-top: -4px; /* Connect to button */
 }
 
 .vocab-list {
@@ -294,6 +309,29 @@ body {
     font-weight: 600;
     color: var(--accent);
     margin-right: 8px;
+}
+
+/* Grammar Section */
+.grammar-section {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid var(--glass-border);
+}
+
+.grammar-section h3 {
+    font-size: 1.1rem;
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+.grammar-content {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--text-muted);
+    background: rgba(255, 255, 255, 0.03);
+    padding: 15px;
+    border-radius: 12px;
+    white-space: pre-wrap; /* Preserve line breaks from AI */
 }
 
 /* Article Content - Sentences */

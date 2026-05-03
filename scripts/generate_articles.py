@@ -29,8 +29,12 @@ def generate_topic_article(genre):
     Requirements:
     1. The core story or information MUST be the same across all 5 levels, just written differently according to the difficulty.
     2. Provide sentence-by-sentence Japanese translations for EACH level.
-    3. For EACH level, provide a 'vocabulary' array containing 3 to 5 important or difficult words used in that level, along with their Japanese meanings.
-    4. Output the result ONLY as a valid JSON object with the following structure (no markdown formatting blocks, just the raw JSON):
+    3. For EACH level, provide an extensive 'vocabulary' array. Include ALL words that are difficult for that specific level. 
+       - For Level 1, include words above A1.
+       - For Level 3, include words above B1.
+       - For EACH word, if there are multiple ways to translate it, provide all common Japanese meanings separated by commas (e.g., "influence": "影響、感化、左右する").
+    4. For EACH level, provide a 'grammar' section at the end. This should be a detailed explanation (in Japanese) of the important grammatical structures, idioms, or specific expressions used in that level's text. This can be as long as needed to be helpful for a student.
+    5. Output the result ONLY as a valid JSON object with the following structure (no markdown formatting blocks, just the raw JSON):
     {{
         "genre": "{genre}",
         "topic": "The chosen topic's name in English",
@@ -38,35 +42,19 @@ def generate_topic_article(genre):
             "1": {{
                 "title": "Title for level 1",
                 "target_time": "1 min",
-                "vocabulary": [{{"word": "vocabulary word", "meaning": "Japanese meaning"}}],
+                "vocabulary": [
+                    {{"word": "word1", "meaning": "meaning1, meaning2"}},
+                    {{"word": "word2", "meaning": "meaning3"}}
+                ],
+                "grammar": "Detailed explanation of grammar in Japanese...",
                 "sentences": [
                     {{"en": "English sentence 1.", "ja": "Japanese translation 1."}}
                 ]
             }},
-            "2": {{
-                "title": "Title for level 2",
-                "target_time": "2 mins",
-                "vocabulary": [{{"word": "vocabulary word", "meaning": "Japanese meaning"}}],
-                "sentences": []
-            }},
-            "3": {{
-                "title": "Title for level 3",
-                "target_time": "3 mins",
-                "vocabulary": [{{"word": "vocabulary word", "meaning": "Japanese meaning"}}],
-                "sentences": []
-            }},
-            "4": {{
-                "title": "Title for level 4",
-                "target_time": "4 mins",
-                "vocabulary": [{{"word": "vocabulary word", "meaning": "Japanese meaning"}}],
-                "sentences": []
-            }},
-            "5": {{
-                "title": "Title for level 5",
-                "target_time": "5 mins",
-                "vocabulary": [{{"word": "vocabulary word", "meaning": "Japanese meaning"}}],
-                "sentences": []
-            }}
+            "2": {{ "title": "...", "target_time": "...", "vocabulary": [], "grammar": "...", "sentences": [] }},
+            "3": {{ "title": "...", "target_time": "...", "vocabulary": [], "grammar": "...", "sentences": [] }},
+            "4": {{ "title": "...", "target_time": "...", "vocabulary": [], "grammar": "...", "sentences": [] }},
+            "5": {{ "title": "...", "target_time": "...", "vocabulary": [], "grammar": "...", "sentences": [] }}
         }}
     }}
     """
@@ -78,7 +66,11 @@ def generate_topic_article(genre):
     }
     
     print(f"Generating Topic Article for genre: {genre}...")
-    response = requests.post(API_URL, headers=headers, json=data)
+    try:
+        response = requests.post(API_URL, headers=headers, json=data)
+    except Exception as e:
+        print(f"Request failed: {e}")
+        return None
     
     if response.status_code != 200:
         print(f"Error: {response.status_code}")
@@ -115,17 +107,23 @@ def main():
     new_articles = []
     
     # Generate 5 topics
+    # Note: Free tier limits are usually around 15 RPM (Requests Per Minute)
+    # and 1500 RPD (Requests Per Day). We generate 5 topics once a day.
+    # We use a 10s delay to be safe and avoid bursts.
     for _ in range(5):
         genre = random.choice(GENRES)
         article = generate_topic_article(genre)
         if article:
             new_articles.append(article)
-        time.sleep(3) # Prevent rate limiting
+        time.sleep(10) # Safe delay for free tier
         
     if new_articles:
         articles.extend(new_articles)
         # Sort by date descending
         articles.sort(key=lambda x: x.get('date', ''), reverse=True)
+        
+        # Keep only the last 30 topics to manage file size
+        articles = articles[:30]
         
         with open(data_file, 'w', encoding='utf-8') as f:
             json.dump(articles, f, ensure_ascii=False, indent=4)
