@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     let allArticles = [];
-    let currentLevel = 1;
     let currentGenre = 'All';
 
     const articlesContainer = document.getElementById('articlesContainer');
@@ -24,16 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
             articlesContainer.innerHTML = '<div class="no-articles">No articles found. Daily generation might not have run yet.</div>';
         });
 
-    // Level Selector
-    document.querySelectorAll('.level-btn').forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            document.querySelectorAll('.level-btn').forEach(b => b.classList.remove('active'));
-            e.target.classList.add('active');
-            currentLevel = parseInt(e.target.dataset.level);
-            renderArticles();
-        });
-    });
-
     // Genre Selector
     document.querySelectorAll('.genre-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
@@ -48,9 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         articlesContainer.innerHTML = '';
         
         const filtered = allArticles.filter(article => {
-            const matchLevel = article.level === currentLevel;
-            const matchGenre = currentGenre === 'All' || article.genre === currentGenre;
-            return matchLevel && matchGenre;
+            return currentGenre === 'All' || article.genre === currentGenre;
         });
 
         if (filtered.length === 0) {
@@ -60,35 +47,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
         filtered.forEach(article => {
             const clone = template.content.cloneNode(true);
+            const articleElement = clone.querySelector('.article-card');
             
-            clone.querySelector('.level-badge').textContent = `Level ${article.level}`;
+            // Set static meta
             clone.querySelector('.genre-badge').textContent = article.genre;
             clone.querySelector('.date-badge').textContent = article.date;
-            clone.querySelector('.time-badge').textContent = `Target: ${article.target_time}`;
-            clone.querySelector('.article-title').textContent = article.title;
 
-            const contentDiv = clone.querySelector('.article-content');
-            
-            article.sentences.forEach(sentence => {
-                const block = document.createElement('div');
-                block.className = 'sentence-block';
-                
-                const enP = document.createElement('p');
-                enP.className = 'sentence-en';
-                enP.textContent = sentence.en;
-                
-                const jaP = document.createElement('p');
-                jaP.className = 'sentence-ja';
-                jaP.textContent = sentence.ja;
-
-                // Click to toggle
-                enP.addEventListener('click', () => {
-                    jaP.classList.toggle('show');
+            // Handle local level buttons
+            const levelBtns = clone.querySelectorAll('.local-level-btn');
+            levelBtns.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    // Update active class
+                    levelBtns.forEach(b => b.classList.remove('active'));
+                    e.target.classList.add('active');
+                    
+                    const level = e.target.dataset.level;
+                    renderArticleLevel(articleElement, article, level);
                 });
-
-                block.appendChild(enP);
-                block.appendChild(jaP);
-                contentDiv.appendChild(block);
             });
 
             // Toggle all button
@@ -109,7 +84,49 @@ document.addEventListener('DOMContentLoaded', () => {
                 toggleAllBtn.textContent = anyHidden ? 'Hide All Translations' : 'Toggle All Translations';
             });
 
+            // Initial render (Level 1)
+            renderArticleLevel(articleElement, article, '1');
+            
             articlesContainer.appendChild(clone);
         });
+    }
+
+    function renderArticleLevel(articleElement, articleData, levelStr) {
+        const levelData = articleData.levels[levelStr];
+        if (!levelData) return;
+
+        articleElement.querySelector('.time-badge').textContent = `Target: ${levelData.target_time}`;
+        articleElement.querySelector('.article-title').textContent = levelData.title;
+
+        const contentDiv = articleElement.querySelector('.article-content');
+        contentDiv.innerHTML = ''; // Clear previous sentences
+        
+        levelData.sentences.forEach(sentence => {
+            const block = document.createElement('div');
+            block.className = 'sentence-block';
+            
+            const enP = document.createElement('p');
+            enP.className = 'sentence-en';
+            enP.textContent = sentence.en;
+            
+            const jaP = document.createElement('p');
+            jaP.className = 'sentence-ja';
+            jaP.textContent = sentence.ja;
+
+            // Click to toggle
+            enP.addEventListener('click', () => {
+                jaP.classList.toggle('show');
+            });
+
+            block.appendChild(enP);
+            block.appendChild(jaP);
+            contentDiv.appendChild(block);
+        });
+
+        // Reset the toggle button text
+        const toggleAllBtn = articleElement.querySelector('.toggle-all-btn');
+        if (toggleAllBtn) {
+            toggleAllBtn.textContent = 'Toggle All Translations';
+        }
     }
 });

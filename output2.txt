@@ -1,0 +1,38 @@
+Generating Level 1 article (Technology)...
+Generating Level 2 article (Business)...
+Traceback (most recent call last):
+  File "/home/kusanagi/enghub/DocumentRoot/scripts/generate_articles.py", line 108, in <module>
+    main()
+  File "/home/kusanagi/enghub/DocumentRoot/scripts/generate_articles.py", line 91, in main
+    article = generate_article(level, genre)
+  File "/home/kusanagi/enghub/DocumentRoot/scripts/generate_articles.py", line 53, in generate_article
+    response = requests.post(API_URL, headers=headers, json=data)
+  File "/opt/kusanagi/lib64/python3.9/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/opt/kusanagi/lib64/python3.9/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/opt/kusanagi/lib64/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/kusanagi/lib64/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/kusanagi/lib64/python3.9/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "/opt/kusanagi/lib64/python3.9/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/opt/kusanagi/lib64/python3.9/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "/opt/kusanagi/lib64/python3.9/site-packages/urllib3/connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "/opt/kusanagi/lib64/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/opt/kusanagi/lib64/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/opt/kusanagi/lib64/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/kusanagi/lib64/python3.9/socket.py", line 716, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/kusanagi/lib64/python3.9/ssl.py", line 1277, in recv_into
+    return self.read(nbytes, buffer)
+  File "/opt/kusanagi/lib64/python3.9/ssl.py", line 1135, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt

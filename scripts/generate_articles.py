@@ -4,6 +4,7 @@ import random
 import datetime
 import requests
 import time
+import uuid
 
 # User provided key as fallback
 API_KEY = os.environ.get('GEMINI_API_KEY', 'AIzaSyCELNp_EiJu4fDlt_Np68TY6KbMLw4Y1e8')
@@ -12,34 +13,55 @@ API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:gene
 
 GENRES = ["Technology", "Business", "Science", "Culture", "Daily Life"]
 
-LEVEL_GUIDELINES = {
-    1: {"cefr": "A1/A2", "desc": "Beginner. Simple sentences, basic vocabulary, mostly present and simple past tense.", "time": "1 min"},
-    2: {"cefr": "A2/B1", "desc": "Pre-Intermediate. Daily topics, comparatives, some future and continuous tenses.", "time": "2 mins"},
-    3: {"cefr": "B1/B2", "desc": "Intermediate. Perfect tenses, passive voice, relative pronouns, more abstract concepts.", "time": "3 mins"},
-    4: {"cefr": "B2/C1", "desc": "Upper-Intermediate. Complex sentences, academic/professional vocabulary, nuanced meanings.", "time": "4 mins"},
-    5: {"cefr": "C1/C2", "desc": "Advanced. Highly academic or literary vocabulary, complex grammatical structures, idioms.", "time": "5 mins"}
-}
-
-def generate_article(level, genre):
-    guide = LEVEL_GUIDELINES[level]
+def generate_topic_article(genre):
     prompt = f"""
-    You are an expert English teacher. Create an English reading practice article for Level {level} ({guide['cefr']}).
-    Genre/Topic: {genre}
-    Guidelines: {guide['desc']}
+    You are an expert English teacher. 
+    Choose a specific, interesting, and random topic within the genre: {genre}.
+    Write a reading practice article about this topic in 5 DIFFERENT difficulty levels.
+    
+    Level Guidelines:
+    - Level 1: Beginner (CEFR A1/A2). Simple sentences, basic vocabulary, mostly present and simple past tense. (~50 words). Target time: "1 min"
+    - Level 2: Pre-Intermediate (CEFR A2/B1). Daily topics, comparatives, some future and continuous tenses. (~100 words). Target time: "2 mins"
+    - Level 3: Intermediate (CEFR B1/B2). Perfect tenses, passive voice, relative pronouns, more abstract concepts. (~150 words). Target time: "3 mins"
+    - Level 4: Upper-Intermediate (CEFR B2/C1). Complex sentences, academic/professional vocabulary, nuanced meanings. (~200 words). Target time: "4 mins"
+    - Level 5: Advanced (CEFR C1/C2). Highly academic or literary vocabulary, complex grammatical structures, idioms. (~250 words). Target time: "5 mins"
     
     Requirements:
-    1. The article should be interesting and informative.
-    2. Length should be appropriate for the level (Level 1: ~50 words, Level 5: ~250 words).
+    1. The core story or information MUST be the same across all 5 levels, just written differently according to the difficulty.
+    2. Provide sentence-by-sentence Japanese translations for EACH level.
     3. Output the result ONLY as a valid JSON object with the following structure (no markdown formatting blocks, just the raw JSON):
     {{
-        "title": "Article Title",
-        "level": {level},
         "genre": "{genre}",
-        "target_time": "{guide['time']}",
-        "sentences": [
-            {{"en": "English sentence 1.", "ja": "Japanese translation 1."}},
-            {{"en": "English sentence 2.", "ja": "Japanese translation 2."}}
-        ]
+        "topic": "The chosen topic's name in English",
+        "levels": {{
+            "1": {{
+                "title": "Title for level 1",
+                "target_time": "1 min",
+                "sentences": [
+                    {{"en": "English sentence 1.", "ja": "Japanese translation 1."}}
+                ]
+            }},
+            "2": {{
+                "title": "Title for level 2",
+                "target_time": "2 mins",
+                "sentences": []
+            }},
+            "3": {{
+                "title": "Title for level 3",
+                "target_time": "3 mins",
+                "sentences": []
+            }},
+            "4": {{
+                "title": "Title for level 4",
+                "target_time": "4 mins",
+                "sentences": []
+            }},
+            "5": {{
+                "title": "Title for level 5",
+                "target_time": "5 mins",
+                "sentences": []
+            }}
+        }}
     }}
     """
     
@@ -49,7 +71,7 @@ def generate_article(level, genre):
         "generationConfig": {"temperature": 0.7}
     }
     
-    print(f"Generating Level {level} article ({genre})...")
+    print(f"Generating Topic Article for genre: {genre}...")
     response = requests.post(API_URL, headers=headers, json=data)
     
     if response.status_code != 200:
@@ -63,7 +85,8 @@ def generate_article(level, genre):
         # Remove potential markdown formatting
         text = text.replace('```json', '').replace('```', '').strip()
         article = json.loads(text)
-        # Add generation date
+        # Add metadata
+        article['id'] = str(uuid.uuid4())
         article['date'] = datetime.datetime.now().strftime('%Y-%m-%d')
         return article
     except Exception as e:
@@ -85,13 +108,13 @@ def main():
         
     new_articles = []
     
-    # Generate one article for each level
-    for level in range(1, 6):
+    # Generate 5 topics
+    for _ in range(5):
         genre = random.choice(GENRES)
-        article = generate_article(level, genre)
+        article = generate_topic_article(genre)
         if article:
             new_articles.append(article)
-        time.sleep(2) # Prevent rate limiting
+        time.sleep(3) # Prevent rate limiting
         
     if new_articles:
         articles.extend(new_articles)
@@ -100,7 +123,7 @@ def main():
         
         with open(data_file, 'w', encoding='utf-8') as f:
             json.dump(articles, f, ensure_ascii=False, indent=4)
-        print(f"Successfully added {len(new_articles)} articles.")
+        print(f"Successfully added {len(new_articles)} topic articles.")
     else:
         print("No articles were generated.")
 
