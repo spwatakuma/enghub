@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -63,6 +64,7 @@
         <article class="article-card glass-panel">
             <header class="article-header">
                 <div class="meta-badges">
+                    <span class="badge completed-badge">Completed</span>
                     <span class="badge genre-badge"></span>
                     <span class="badge date-badge"></span>
                     <span class="badge time-badge"></span>
@@ -76,11 +78,16 @@
                 <button class="local-level-btn" data-level="4">Level 4</button>
                 <button class="local-level-btn" data-level="5">Level 5</button>
             </div>
+            <div class="vocabulary-section" style="display: none;">
+                <h3>Vocabulary</h3>
+                <ul class="vocab-list"></ul>
+            </div>
             <div class="article-content">
                 <!-- Sentences will be injected here -->
             </div>
             <div class="article-actions">
                 <button class="btn toggle-all-btn">Toggle All Translations</button>
+                <button class="btn mark-read-btn">✅ Mark as Read</button>
             </div>
         </article>
     </template>

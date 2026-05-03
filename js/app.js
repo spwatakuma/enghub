@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     let allArticles = [];
     let currentGenre = 'All';
+    let readArticles = JSON.parse(localStorage.getItem('enghub_read_articles') || '[]');
 
     const articlesContainer = document.getElementById('articlesContainer');
     const template = document.getElementById('articleTemplate');
@@ -53,20 +54,24 @@ document.addEventListener('DOMContentLoaded', () => {
             clone.querySelector('.genre-badge').textContent = article.genre;
             clone.querySelector('.date-badge').textContent = article.date;
 
+            // Check if read
+            if (readArticles.includes(article.id)) {
+                articleElement.classList.add('completed');
+                clone.querySelector('.mark-read-btn').textContent = '✅ Completed';
+            }
+
             // Handle local level buttons
             const levelBtns = clone.querySelectorAll('.local-level-btn');
             levelBtns.forEach(btn => {
                 btn.addEventListener('click', (e) => {
-                    // Update active class
                     levelBtns.forEach(b => b.classList.remove('active'));
                     e.target.classList.add('active');
-                    
                     const level = e.target.dataset.level;
                     renderArticleLevel(articleElement, article, level);
                 });
             });
 
-            // Toggle all button
+            // Toggle all translations
             const toggleAllBtn = clone.querySelector('.toggle-all-btn');
             toggleAllBtn.addEventListener('click', (e) => {
                 const card = e.target.closest('.article-card');
@@ -84,6 +89,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 toggleAllBtn.textContent = anyHidden ? 'Hide All Translations' : 'Toggle All Translations';
             });
 
+            // Mark as Read
+            const markReadBtn = clone.querySelector('.mark-read-btn');
+            markReadBtn.addEventListener('click', () => {
+                if (!readArticles.includes(article.id)) {
+                    readArticles.push(article.id);
+                    localStorage.setItem('enghub_read_articles', JSON.stringify(readArticles));
+                    articleElement.classList.add('completed');
+                    markReadBtn.textContent = '✅ Completed';
+                }
+            });
+
             // Initial render (Level 1)
             renderArticleLevel(articleElement, article, '1');
             
@@ -98,6 +114,21 @@ document.addEventListener('DOMContentLoaded', () => {
         articleElement.querySelector('.time-badge').textContent = `Target: ${levelData.target_time}`;
         articleElement.querySelector('.article-title').textContent = levelData.title;
 
+        // Render Vocabulary if it exists
+        const vocabSection = articleElement.querySelector('.vocabulary-section');
+        const vocabList = articleElement.querySelector('.vocab-list');
+        if (levelData.vocabulary && levelData.vocabulary.length > 0) {
+            vocabList.innerHTML = '';
+            levelData.vocabulary.forEach(v => {
+                const li = document.createElement('li');
+                li.innerHTML = `<span class="vocab-word">${v.word}</span> - ${v.meaning}`;
+                vocabList.appendChild(li);
+            });
+            vocabSection.style.display = 'block';
+        } else {
+            vocabSection.style.display = 'none';
+        }
+
         const contentDiv = articleElement.querySelector('.article-content');
         contentDiv.innerHTML = ''; // Clear previous sentences
         
@@ -105,9 +136,20 @@ document.addEventListener('DOMContentLoaded', () => {
             const block = document.createElement('div');
             block.className = 'sentence-block';
             
+            // TTS Button
+            const ttsBtn = document.createElement('button');
+            ttsBtn.className = 'tts-btn';
+            ttsBtn.innerHTML = '🔊';
+            ttsBtn.title = 'Read Aloud';
+            ttsBtn.addEventListener('click', (e) => {
+                e.stopPropagation(); // Prevent toggling translation
+                speakText(sentence.en);
+            });
+
             const enP = document.createElement('p');
             enP.className = 'sentence-en';
-            enP.textContent = sentence.en;
+            enP.appendChild(ttsBtn);
+            enP.appendChild(document.createTextNode(sentence.en));
             
             const jaP = document.createElement('p');
             jaP.className = 'sentence-ja';
@@ -123,10 +165,21 @@ document.addEventListener('DOMContentLoaded', () => {
             contentDiv.appendChild(block);
         });
 
-        // Reset the toggle button text
         const toggleAllBtn = articleElement.querySelector('.toggle-all-btn');
         if (toggleAllBtn) {
             toggleAllBtn.textContent = 'Toggle All Translations';
         }
+    }
+
+    function speakText(text) {
+        if (!('speechSynthesis' in window)) {
+            alert('Your browser does not support text-to-speech.');
+            return;
+        }
+        speechSynthesis.cancel(); // Stop current speech
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'en-US';
+        utterance.rate = 0.9; // Slightly slower for learning
+        speechSynthesis.speak(utterance);
     }
 });

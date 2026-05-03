@@ -29,7 +29,8 @@ def generate_topic_article(genre):
     Requirements:
     1. The core story or information MUST be the same across all 5 levels, just written differently according to the difficulty.
     2. Provide sentence-by-sentence Japanese translations for EACH level.
-    3. Output the result ONLY as a valid JSON object with the following structure (no markdown formatting blocks, just the raw JSON):
+    3. For EACH level, provide a 'vocabulary' array containing 3 to 5 important or difficult words used in that level, along with their Japanese meanings.
+    4. Output the result ONLY as a valid JSON object with the following structure (no markdown formatting blocks, just the raw JSON):
     {{
         "genre": "{genre}",
         "topic": "The chosen topic's name in English",
@@ -37,6 +38,7 @@ def generate_topic_article(genre):
             "1": {{
                 "title": "Title for level 1",
                 "target_time": "1 min",
+                "vocabulary": [{{"word": "vocabulary word", "meaning": "Japanese meaning"}}],
                 "sentences": [
                     {{"en": "English sentence 1.", "ja": "Japanese translation 1."}}
                 ]
@@ -44,21 +46,25 @@ def generate_topic_article(genre):
             "2": {{
                 "title": "Title for level 2",
                 "target_time": "2 mins",
+                "vocabulary": [{{"word": "vocabulary word", "meaning": "Japanese meaning"}}],
                 "sentences": []
             }},
             "3": {{
                 "title": "Title for level 3",
                 "target_time": "3 mins",
+                "vocabulary": [{{"word": "vocabulary word", "meaning": "Japanese meaning"}}],
                 "sentences": []
             }},
             "4": {{
                 "title": "Title for level 4",
                 "target_time": "4 mins",
+                "vocabulary": [{{"word": "vocabulary word", "meaning": "Japanese meaning"}}],
                 "sentences": []
             }},
             "5": {{
                 "title": "Title for level 5",
                 "target_time": "5 mins",
+                "vocabulary": [{{"word": "vocabulary word", "meaning": "Japanese meaning"}}],
                 "sentences": []
             }}
         }}

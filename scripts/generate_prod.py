@@ -12,6 +12,11 @@ articles = [
             "1": {
                 "title": "A Big New Telescope",
                 "target_time": "1 min",
+                "vocabulary": [
+                    {"word": "telescope", "meaning": "望遠鏡"},
+                    {"word": "space", "meaning": "宇宙"},
+                    {"word": "bright", "meaning": "明るい"}
+                ],
                 "sentences": [
                     {"en": "There is a new telescope in space.", "ja": "宇宙に新しい望遠鏡があります。"},
                     {"en": "Its name is James Webb.", "ja": "その名前はジェイムズ・ウェッブです。"},
@@ -23,6 +28,11 @@ articles = [
             "2": {
                 "title": "The James Webb Telescope",
                 "target_time": "2 mins",
+                "vocabulary": [
+                    {"word": "astronomer", "meaning": "天文学者"},
+                    {"word": "launch", "meaning": "打ち上げる"},
+                    {"word": "faint", "meaning": "かすかな"}
+                ],
                 "sentences": [
                     {"en": "The James Webb Space Telescope is a powerful new tool for astronomers.", "ja": "ジェイムズ・ウェッブ宇宙望遠鏡は、天文学者にとって強力な新しいツールです。"},
                     {"en": "It was launched into space in 2021.", "ja": "それは2021年に宇宙に打ち上げられました。"},
@@ -34,6 +44,11 @@ articles = [
             "3": {
                 "title": "Exploring the Universe with JWST",
                 "target_time": "3 mins",
+                "vocabulary": [
+                    {"word": "leap", "meaning": "飛躍"},
+                    {"word": "infrared", "meaning": "赤外線の"},
+                    {"word": "fundamental", "meaning": "根本的な"}
+                ],
                 "sentences": [
                     {"en": "The James Webb Space Telescope (JWST) represents a massive leap forward in our ability to explore the universe.", "ja": "ジェイムズ・ウェッブ宇宙望遠鏡（JWST）は、宇宙を探求する私たちの能力における大きな飛躍を意味します。"},
                     {"en": "Unlike older telescopes, it primarily observes the universe in infrared light, which is invisible to the human eye.", "ja": "古い望遠鏡とは異なり、主に人間の目には見えない赤外線で宇宙を観測します。"},
@@ -44,6 +59,11 @@ articles = [
             "4": {
                 "title": "The Engineering Marvel of the Webb Telescope",
                 "target_time": "4 mins",
+                "vocabulary": [
+                    {"word": "unprecedented", "meaning": "前例のない"},
+                    {"word": "utilize", "meaning": "利用する"},
+                    {"word": "transformative", "meaning": "変化をもたらす"}
+                ],
                 "sentences": [
                     {"en": "Launched as the successor to the legendary Hubble, the James Webb Space Telescope is widely regarded as an unprecedented engineering marvel.", "ja": "伝説的なハッブルの後継機として打ち上げられたジェイムズ・ウェッブ宇宙望遠鏡は、前例のない工学の驚異として広く認識されています。"},
                     {"en": "Operating at a Lagrange point roughly 1.5 million kilometers from Earth, it requires extreme sub-zero temperatures to function efficiently.", "ja": "地球から約150万キロ離れたラグランジュ点で運用されており、効率的に機能するためには極度の氷点下の温度を必要とします。"},
@@ -54,6 +74,12 @@ articles = [
             "5": {
                 "title": "Cosmological Paradigms and the JWST Era",
                 "target_time": "5 mins",
+                "vocabulary": [
+                    {"word": "catalyze", "meaning": "促進する"},
+                    {"word": "dismantle", "meaning": "打ち砕く"},
+                    {"word": "meticulous", "meaning": "綿密な"},
+                    {"word": "ontological", "meaning": "存在論的な"}
+                ],
                 "sentences": [
                     {"en": "The deployment of the James Webb Space Telescope has unequivocally catalyzed a paradigm shift in contemporary astrophysics and observational cosmology.", "ja": "ジェイムズ・ウェッブ宇宙望遠鏡の展開は、間違いなく現代の天体物理学と観測宇宙論におけるパラダイムシフトを促進しました。"},
                     {"en": "By capitalizing on its unprecedented mid-infrared sensitivity, researchers are systematically dismantling previously held assumptions regarding early galaxy formation.", "ja": "その前例のない中間赤外線感度を活用することで、研究者たちは初期の銀河形成に関して以前に抱かれていた仮説を体系的に覆しています。"},
@@ -72,6 +98,11 @@ articles = [
             "1": {
                 "title": "Working from Home",
                 "target_time": "1 min",
+                "vocabulary": [
+                    {"word": "boss", "meaning": "上司"},
+                    {"word": "save", "meaning": "節約する"},
+                    {"word": "lonely", "meaning": "寂しい"}
+                ],
                 "sentences": [
                     {"en": "Many people work from home now.", "ja": "今では多くの人が家で働いています。"},
                     {"en": "They use computers to talk to friends and bosses.", "ja": "彼らは友達や上司と話すためにコンピュータを使います。"},
@@ -83,6 +114,11 @@ articles = [
             "2": {
                 "title": "The New Remote Office",
                 "target_time": "2 mins",
+                "vocabulary": [
+                    {"word": "flexible", "meaning": "柔軟な"},
+                    {"word": "commute", "meaning": "通勤する"},
+                    {"word": "separate", "meaning": "分ける"}
+                ],
                 "sentences": [
                     {"en": "In recent years, remote work has become very popular.", "ja": "近年、リモートワークが非常に人気になっています。"},
                     {"en": "Companies realized that employees can do their jobs well outside the office.", "ja": "企業は、従業員がオフィスの外でも仕事をうまくこなせることに気づきました。"},
@@ -94,6 +130,11 @@ articles = [
             "3": {
                 "title": "Adapting to Remote Work Culture",
                 "target_time": "3 mins",
+                "vocabulary": [
+                    {"word": "dramatically", "meaning": "劇的に"},
+                    {"word": "productivity", "meaning": "生産性"},
+                    {"word": "isolation", "meaning": "孤立"}
+                ],
                 "sentences": [
                     {"en": "The transition to remote work has dramatically reshaped the modern corporate landscape.", "ja": "リモートワークへの移行は、現代の企業環境を劇的に再構築しました。"},
                     {"en": "While productivity levels have generally remained stable or even increased, new challenges have emerged.", "ja": "生産性レベルは概ね安定しているか向上さえしていますが、新たな課題も浮上しています。"},
@@ -104,6 +145,11 @@ articles = [
             "4": {
                 "title": "Economic Implications of Telecommuting",
                 "target_time": "4 mins",
+                "vocabulary": [
+                    {"word": "profound", "meaning": "深刻な"},
+                    {"word": "grapple", "meaning": "取り組む"},
+                    {"word": "revitalization", "meaning": "活性化"}
+                ],
                 "sentences": [
                     {"en": "The widespread adoption of telecommuting models has triggered profound macroeconomic shifts across urban centers globally.", "ja": "テレワークモデルの普及は、世界中の都市部で深刻なマクロ経済的変化を引き起こしました。"},
                     {"en": "Commercial real estate sectors are grappling with declining demand, compelling landlords to repurpose traditional office spaces.", "ja": "商業用不動産部門は需要の減少に直面しており、家主は伝統的なオフィススペースの用途変更を余儀なくされています。"},
@@ -114,6 +160,12 @@ articles = [
             "5": {
                 "title": "Decentralization of the Modern Workforce",
                 "target_time": "5 mins",
+                "vocabulary": [
+                    {"word": "consequential", "meaning": "重要な"},
+                    {"word": "ubiquitous", "meaning": "偏在的な"},
+                    {"word": "meritocracy", "meaning": "実力主義"},
+                    {"word": "insidious", "meaning": "潜行性の"}
+                ],
                 "sentences": [
                     {"en": "The systemic decentralization of the workforce constitutes one of the most consequential socioeconomic transformations of the 21st century.", "ja": "労働力の体系的な分散化は、21世紀における最も重要な社会経済的変革の一つを構成しています。"},
                     {"en": "This ubiquitous shift necessitates a comprehensive reevaluation of traditional managerial paradigms, pivoting from attendance-based oversight to outcome-oriented metrics.", "ja": "この遍在的な移行は、出勤に基づく監視から成果志向の指標へと軸足を移し、伝統的な管理パラダイムの包括的な再評価を必要とします。"},
@@ -132,6 +184,11 @@ articles = [
             "1": {
                 "title": "Drinking Green Tea",
                 "target_time": "1 min",
+                "vocabulary": [
+                    {"word": "famous", "meaning": "有名な"},
+                    {"word": "peaceful", "meaning": "平和な"},
+                    {"word": "bitter", "meaning": "苦い"}
+                ],
                 "sentences": [
                     {"en": "Green tea is very famous in Japan.", "ja": "緑茶は日本でとても有名です。"},
                     {"en": "People drink it in a special room.", "ja": "人々は特別な部屋でそれを飲みます。"},
@@ -143,6 +200,11 @@ articles = [
             "2": {
                 "title": "The Japanese Tea Ceremony",
                 "target_time": "2 mins",
+                "vocabulary": [
+                    {"word": "ceremony", "meaning": "儀式"},
+                    {"word": "prepare", "meaning": "準備する"},
+                    {"word": "respect", "meaning": "敬意"}
+                ],
                 "sentences": [
                     {"en": "The Japanese tea ceremony is a traditional cultural activity.", "ja": "日本の茶道は伝統的な文化活動です。"},
                     {"en": "It is called 'Sado' or 'Chado' in Japanese.", "ja": "日本語では「茶道」と呼ばれます。"},
@@ -154,6 +216,11 @@ articles = [
             "3": {
                 "title": "Understanding the Way of Tea",
                 "target_time": "3 mins",
+                "vocabulary": [
+                    {"word": "ritual", "meaning": "儀式"},
+                    {"word": "principle", "meaning": "原則"},
+                    {"word": "practitioner", "meaning": "実践者"}
+                ],
                 "sentences": [
                     {"en": "The Way of Tea is a highly structured ritual that goes far beyond simply making a beverage.", "ja": "茶道は、単に飲み物を作ることにとどまらない、高度に構造化された儀式です。"},
                     {"en": "Rooted in Zen Buddhism, the ceremony emphasizes four core principles: harmony, respect, purity, and tranquility.", "ja": "禅仏教に根ざしたこの儀式は、和、敬、清、寂という4つの核心的な原則を強調しています。"},
@@ -164,6 +231,11 @@ articles = [
             "4": {
                 "title": "Aesthetics and Philosophy of Sado",
                 "target_time": "4 mins",
+                "vocabulary": [
+                    {"word": "aesthetic", "meaning": "美学"},
+                    {"word": "transience", "meaning": "無常"},
+                    {"word": "meticulously", "meaning": "細心の注意を払って"}
+                ],
                 "sentences": [
                     {"en": "Central to the philosophy of the Japanese tea ceremony is the concept of 'Wabi-sabi', an aesthetic that finds beauty in imperfection and transience.", "ja": "日本の茶道の哲学の中心にあるのは「わび・さび」という概念であり、これは不完全さと無常の中に美を見出す美学です。"},
                     {"en": "The utensils used, such as the rustic tea bowls and bamboo scoops, are meticulously selected to reflect the changing seasons and the specific occasion.", "ja": "素朴な茶碗や竹の茶杓など、使用される道具は、移り変わる季節や特定の行事を反映するように細心の注意を払って選ばれます。"},
@@ -174,6 +246,12 @@ articles = [
             "5": {
                 "title": "Zen Epistemology in Ritualistic Practices",
                 "target_time": "5 mins",
+                "vocabulary": [
+                    {"word": "quintessential", "meaning": "典型的な"},
+                    {"word": "epistemology", "meaning": "認識論"},
+                    {"word": "superfluous", "meaning": "余分な"},
+                    {"word": "equilibrium", "meaning": "均衡"}
+                ],
                 "sentences": [
                     {"en": "The traditional Japanese tea ceremony serves as a quintessential embodiment of Zen epistemology integrated into a performative art form.", "ja": "伝統的な日本の茶道は、パフォーマティブな芸術形式に統合された禅の認識論の典型的な体現として機能します。"},
                     {"en": "By stripping away superfluous ornamentation, the architecture of the chashitsu (tearoom) compels participants to engage in deep introspection and unmediated sensory perception.", "ja": "余分な装飾を削ぎ落とすことで、茶室の建築は参加者に深い内省と直接的な感覚知覚に従事することを強います。"},

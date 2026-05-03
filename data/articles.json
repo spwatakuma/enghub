@@ -1,6 +1,6 @@
 [
     {
-        "id": "bbaed759-c528-41b3-8296-1f48504f5296",
+        "id": "d59f4508-2328-4e57-aed1-3bde16c8b8d7",
         "date": "2026-05-03",
         "genre": "Science",
         "topic": "The James Webb Space Telescope",
@@ -8,6 +8,20 @@
             "1": {
                 "title": "A Big New Telescope",
                 "target_time": "1 min",
+                "vocabulary": [
+                    {
+                        "word": "telescope",
+                        "meaning": "望遠鏡"
+                    },
+                    {
+                        "word": "space",
+                        "meaning": "宇宙"
+                    },
+                    {
+                        "word": "bright",
+                        "meaning": "明るい"
+                    }
+                ],
                 "sentences": [
                     {
                         "en": "There is a new telescope in space.",
@@ -34,6 +48,20 @@
             "2": {
                 "title": "The James Webb Telescope",
                 "target_time": "2 mins",
+                "vocabulary": [
+                    {
+                        "word": "astronomer",
+                        "meaning": "天文学者"
+                    },
+                    {
+                        "word": "launch",
+                        "meaning": "打ち上げる"
+                    },
+                    {
+                        "word": "faint",
+                        "meaning": "かすかな"
+                    }
+                ],
                 "sentences": [
                     {
                         "en": "The James Webb Space Telescope is a powerful new tool for astronomers.",
@@ -60,6 +88,20 @@
             "3": {
                 "title": "Exploring the Universe with JWST",
                 "target_time": "3 mins",
+                "vocabulary": [
+                    {
+                        "word": "leap",
+                        "meaning": "飛躍"
+                    },
+                    {
+                        "word": "infrared",
+                        "meaning": "赤外線の"
+                    },
+                    {
+                        "word": "fundamental",
+                        "meaning": "根本的な"
+                    }
+                ],
                 "sentences": [
                     {
                         "en": "The James Webb Space Telescope (JWST) represents a massive leap forward in our ability to explore the universe.",
@@ -82,6 +124,20 @@
             "4": {
                 "title": "The Engineering Marvel of the Webb Telescope",
                 "target_time": "4 mins",
+                "vocabulary": [
+                    {
+                        "word": "unprecedented",
+                        "meaning": "前例のない"
+                    },
+                    {
+                        "word": "utilize",
+                        "meaning": "利用する"
+                    },
+                    {
+                        "word": "transformative",
+                        "meaning": "変化をもたらす"
+                    }
+                ],
                 "sentences": [
                     {
                         "en": "Launched as the successor to the legendary Hubble, the James Webb Space Telescope is widely regarded as an unprecedented engineering marvel.",
@@ -104,6 +160,24 @@
             "5": {
                 "title": "Cosmological Paradigms and the JWST Era",
                 "target_time": "5 mins",
+                "vocabulary": [
+                    {
+                        "word": "catalyze",
+                        "meaning": "促進する"
+                    },
+                    {
+                        "word": "dismantle",
+                        "meaning": "打ち砕く"
+                    },
+                    {
+                        "word": "meticulous",
+                        "meaning": "綿密な"
+                    },
+                    {
+                        "word": "ontological",
+                        "meaning": "存在論的な"
+                    }
+                ],
                 "sentences": [
                     {
                         "en": "The deployment of the James Webb Space Telescope has unequivocally catalyzed a paradigm shift in contemporary astrophysics and observational cosmology.",
@@ -126,7 +200,7 @@
         }
     },
     {
-        "id": "a839773b-c061-4326-a5da-a6463e2f9708",
+        "id": "09881794-9c53-4934-b03b-b3d019897480",
         "date": "2026-05-03",
         "genre": "Business",
         "topic": "The Shift to Remote Work",
@@ -134,6 +208,20 @@
             "1": {
                 "title": "Working from Home",
                 "target_time": "1 min",
+                "vocabulary": [
+                    {
+                        "word": "boss",
+                        "meaning": "上司"
+                    },
+                    {
+                        "word": "save",
+                        "meaning": "節約する"
+                    },
+                    {
+                        "word": "lonely",
+                        "meaning": "寂しい"
+                    }
+                ],
                 "sentences": [
                     {
                         "en": "Many people work from home now.",
@@ -160,6 +248,20 @@
             "2": {
                 "title": "The New Remote Office",
                 "target_time": "2 mins",
+                "vocabulary": [
+                    {
+                        "word": "flexible",
+                        "meaning": "柔軟な"
+                    },
+                    {
+                        "word": "commute",
+                        "meaning": "通勤する"
+                    },
+                    {
+                        "word": "separate",
+                        "meaning": "分ける"
+                    }
+                ],
                 "sentences": [
                     {
                         "en": "In recent years, remote work has become very popular.",
@@ -186,6 +288,20 @@
             "3": {
                 "title": "Adapting to Remote Work Culture",
                 "target_time": "3 mins",
+                "vocabulary": [
+                    {
+                        "word": "dramatically",
+                        "meaning": "劇的に"
+                    },
+                    {
+                        "word": "productivity",
+                        "meaning": "生産性"
+                    },
+                    {
+                        "word": "isolation",
+                        "meaning": "孤立"
+                    }
+                ],
                 "sentences": [
                     {
                         "en": "The transition to remote work has dramatically reshaped the modern corporate landscape.",
@@ -208,6 +324,20 @@
             "4": {
                 "title": "Economic Implications of Telecommuting",
                 "target_time": "4 mins",
+                "vocabulary": [
+                    {
+                        "word": "profound",
+                        "meaning": "深刻な"
+                    },
+                    {
+                        "word": "grapple",
+                        "meaning": "取り組む"
+                    },
+                    {
+                        "word": "revitalization",
+                        "meaning": "活性化"
+                    }
+                ],
                 "sentences": [
                     {
                         "en": "The widespread adoption of telecommuting models has triggered profound macroeconomic shifts across urban centers globally.",
@@ -230,6 +360,24 @@
             "5": {
                 "title": "Decentralization of the Modern Workforce",
                 "target_time": "5 mins",
+                "vocabulary": [
+                    {
+                        "word": "consequential",
+                        "meaning": "重要な"
+                    },
+                    {
+                        "word": "ubiquitous",
+                        "meaning": "偏在的な"
+                    },
+                    {
+                        "word": "meritocracy",
+                        "meaning": "実力主義"
+                    },
+                    {
+                        "word": "insidious",
+                        "meaning": "潜行性の"
+                    }
+                ],
                 "sentences": [
                     {
                         "en": "The systemic decentralization of the workforce constitutes one of the most consequential socioeconomic transformations of the 21st century.",
@@ -252,7 +400,7 @@
         }
     },
     {
-        "id": "0b10ce73-9cbf-4ad4-9d02-d543eb1382f6",
+        "id": "d4ceb6d1-1085-40a4-9dfb-cbe020319258",
         "date": "2026-05-03",
         "genre": "Culture",
         "topic": "Traditional Japanese Tea Ceremony",
@@ -260,6 +408,20 @@
             "1": {
                 "title": "Drinking Green Tea",
                 "target_time": "1 min",
+                "vocabulary": [
+                    {
+                        "word": "famous",
+                        "meaning": "有名な"
+                    },
+                    {
+                        "word": "peaceful",
+                        "meaning": "平和な"
+                    },
+                    {
+                        "word": "bitter",
+                        "meaning": "苦い"
+                    }
+                ],
                 "sentences": [
                     {
                         "en": "Green tea is very famous in Japan.",
@@ -286,6 +448,20 @@
             "2": {
                 "title": "The Japanese Tea Ceremony",
                 "target_time": "2 mins",
+                "vocabulary": [
+                    {
+                        "word": "ceremony",
+                        "meaning": "儀式"
+                    },
+                    {
+                        "word": "prepare",
+                        "meaning": "準備する"
+                    },
+                    {
+                        "word": "respect",
+                        "meaning": "敬意"
+                    }
+                ],
                 "sentences": [
                     {
                         "en": "The Japanese tea ceremony is a traditional cultural activity.",
@@ -312,6 +488,20 @@
             "3": {
                 "title": "Understanding the Way of Tea",
                 "target_time": "3 mins",
+                "vocabulary": [
+                    {
+                        "word": "ritual",
+                        "meaning": "儀式"
+                    },
+                    {
+                        "word": "principle",
+                        "meaning": "原則"
+                    },
+                    {
+                        "word": "practitioner",
+                        "meaning": "実践者"
+                    }
+                ],
                 "sentences": [
                     {
                         "en": "The Way of Tea is a highly structured ritual that goes far beyond simply making a beverage.",
@@ -334,6 +524,20 @@
             "4": {
                 "title": "Aesthetics and Philosophy of Sado",
                 "target_time": "4 mins",
+                "vocabulary": [
+                    {
+                        "word": "aesthetic",
+                        "meaning": "美学"
+                    },
+                    {
+                        "word": "transience",
+                        "meaning": "無常"
+                    },
+                    {
+                        "word": "meticulously",
+                        "meaning": "細心の注意を払って"
+                    }
+                ],
                 "sentences": [
                     {
                         "en": "Central to the philosophy of the Japanese tea ceremony is the concept of 'Wabi-sabi', an aesthetic that finds beauty in imperfection and transience.",
@@ -356,6 +560,24 @@
             "5": {
                 "title": "Zen Epistemology in Ritualistic Practices",
                 "target_time": "5 mins",
+                "vocabulary": [
+                    {
+                        "word": "quintessential",
+                        "meaning": "典型的な"
+                    },
+                    {
+                        "word": "epistemology",
+                        "meaning": "認識論"
+                    },
+                    {
+                        "word": "superfluous",
+                        "meaning": "余分な"
+                    },
+                    {
+                        "word": "equilibrium",
+                        "meaning": "均衡"
+                    }
+                ],
                 "sentences": [
                     {
                         "en": "The traditional Japanese tea ceremony serves as a quintessential embodiment of Zen epistemology integrated into a performative art form.",
