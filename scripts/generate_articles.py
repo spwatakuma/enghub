@@ -6,7 +6,7 @@ import requests
 import time
 
 # User provided key as fallback
-API_KEY = os.environ.get('GEMINI_API_KEY', 'AIzaSyBfRfFnIeq76O-bJeXSW7eTvA4LaCXGf-0')
+API_KEY = os.environ.get('GEMINI_API_KEY', 'AIzaSyCELNp_EiJu4fDlt_Np68TY6KbMLw4Y1e8')
 MODEL = 'gemini-2.5-flash'
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent?key={API_KEY}"
 

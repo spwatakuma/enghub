@@ -1,1 +1,227 @@
-[]
+[
+    {
+        "title": "My Smart Phone",
+        "level": 1,
+        "genre": "Technology",
+        "target_time": "1 min",
+        "sentences": [
+            {
+                "en": "I have a smartphone.",
+                "ja": "私はスマートフォンを持っています。"
+            },
+            {
+                "en": "It is a small computer.",
+                "ja": "それは小さいコンピューターです。"
+            },
+            {
+                "en": "I use it every day.",
+                "ja": "私は毎日それを使います。"
+            },
+            {
+                "en": "I can call my family.",
+                "ja": "私は家族に電話できます。"
+            },
+            {
+                "en": "I send text messages to my friends.",
+                "ja": "私は友達にテキストメッセージを送ります。"
+            },
+            {
+                "en": "I can also take photos.",
+                "ja": "私は写真も撮ることができます。"
+            },
+            {
+                "en": "Sometimes, I watch short videos.",
+                "ja": "時々、短いビデオを見ます。"
+            },
+            {
+                "en": "My smartphone is very helpful for me.",
+                "ja": "私のスマートフォンは私にとってとても役立ちます。"
+            }
+        ],
+        "date": "2026-05-03"
+    },
+    {
+        "title": "The Amazing World of Plants",
+        "level": 2,
+        "genre": "Science",
+        "target_time": "2 mins",
+        "sentences": [
+            {
+                "en": "Plants are everywhere! They make our world beautiful.",
+                "ja": "植物はどこにでもあります！ それらは私たちの世界を美しくしています。"
+            },
+            {
+                "en": "But plants do much more than just look nice. They are very important for life on Earth.",
+                "ja": "しかし、植物はただ見た目が良いだけではありません。それらは地球上の生命にとって非常に重要です。"
+            },
+            {
+                "en": "For example, plants make the oxygen we breathe. Without oxygen, we cannot live.",
+                "ja": "例えば、植物は私たちが呼吸する酸素を作ります。酸素がなければ、私たちは生きられません。"
+            },
+            {
+                "en": "Also, many plants give us food. We eat fruits, vegetables, and grains every day.",
+                "ja": "また、多くの植物は私たちに食べ物を与えてくれます。私たちは毎日、果物、野菜、穀物を食べます。"
+            },
+            {
+                "en": "Some plants are small, like grass. But others are very big, like tall trees. A redwood tree is much taller than a house!",
+                "ja": "草のように小さい植物もあります。しかし、背の高い木のように非常に大きいものもあります。セコイアの木は家よりもずっと高いです！"
+            },
+            {
+                "en": "Plants are always growing, even when we don't see it. Their roots are reaching deeper into the soil.",
+                "ja": "植物は、私たちが見ていなくても常に成長しています。その根は土壌の奥深くまで伸びています。"
+            },
+            {
+                "en": "Inside their leaves, plants are busy making their own food using sunlight. This process is called photosynthesis.",
+                "ja": "葉の中で、植物は日光を使って自分たちの食べ物を作るのに忙しいです。この過程は光合成と呼ばれます。"
+            },
+            {
+                "en": "In the future, we will learn even more about plants. They will help us find new medicines and build better homes.",
+                "ja": "将来的には、私たちは植物についてさらに多くのことを学ぶでしょう。それらは新しい薬を見つけたり、より良い家を建てたりするのに役立つでしょう。"
+            },
+            {
+                "en": "So, next time you see a plant, remember its amazing work!",
+                "ja": "だから、次に植物を見たときは、その驚くべき働きを思い出してください！"
+            }
+        ],
+        "date": "2026-05-03"
+    },
+    {
+        "title": "Innovation and Adaptability: Keys to Modern Business Success",
+        "level": 3,
+        "genre": "Business",
+        "target_time": "3 mins",
+        "sentences": [
+            {
+                "en": "In today's fast-paced global economy, businesses have increasingly recognized the critical importance of innovation and adaptability.",
+                "ja": "今日の急速に変化するグローバル経済において、企業はイノベーションと適応性の極めて重要な認識をますます高めています。"
+            },
+            {
+                "en": "For decades, companies had often relied on established methods, but that approach has become less viable.",
+                "ja": "何十年もの間、企業は確立された手法に頼ることが多かったですが、そのアプローチはもはや実行可能ではなくなっています。"
+            },
+            {
+                "en": "Companies that have consistently invested in research and development, which often leads to groundbreaking products or services, have typically seen sustained growth and competitive advantage.",
+                "ja": "常に研究開発に投資し、それが画期的な製品やサービスにつながることが多い企業は、一般的に持続的な成長と競争優位性を実現してきました。"
+            },
+            {
+                "en": "However, innovation alone is not sufficient for long-term survival.",
+                "ja": "しかし、イノベーションだけでは長期的な存続には十分ではありません。"
+            },
+            {
+                "en": "Market dynamics have frequently shifted, requiring organizations to be exceptionally agile and responsive.",
+                "ja": "市場の力学は頻繁に変化しており、組織には並外れた機敏性と対応力が求められています。"
+            },
+            {
+                "en": "Many traditional business models, which once seemed invincible, have been fundamentally challenged by rapid technological advancements and evolving consumer expectations.",
+                "ja": "かつては無敵に見えた多くの伝統的なビジネスモデルは、急速な技術進歩と変化する消費者の期待によって根本的に挑戦を受けてきました。"
+            },
+            {
+                "en": "Businesses that had failed to embrace new technologies or adjust their core strategies had often been left behind, struggling to regain market share.",
+                "ja": "新しい技術を受け入れたり、中核となる戦略を調整したりできなかった企業は、しばしば取り残され、市場シェアを取り戻すのに苦労してきました。"
+            },
+            {
+                "en": "Therefore, strategic foresight, where potential disruptions are not just reacted to but actively anticipated, will have become an even more vital skill for leaders across all sectors.",
+                "ja": "したがって、潜在的な混乱にただ反応するだけでなく、積極的に予測する戦略的先見性は、すべての分野のリーダーにとってさらに不可欠なスキルとなるでしょう。"
+            },
+            {
+                "en": "A culture of continuous learning must be fostered, ensuring that employees are empowered to contribute new ideas.",
+                "ja": "継続的な学習の文化を育む必要があり、従業員が新しいアイデアを貢献できるよう権限を与えられることが保証されます。"
+            },
+            {
+                "en": "Those who effectively manage change and proactively adapt will be the ones who truly thrive in the complex landscape of the 21st century.",
+                "ja": "変化を効果的に管理し、積極的に適応する者こそが、21世紀の複雑な状況において真に成功するでしょう。"
+            }
+        ],
+        "date": "2026-05-03"
+    },
+    {
+        "title": "Neuroplasticity: The Brain's Ever-Evolving Architecture",
+        "level": 4,
+        "genre": "Science",
+        "target_time": "4 mins",
+        "sentences": [
+            {
+                "en": "The human brain, an organ of unparalleled complexity, is not a static entity but a dynamic, ever-evolving architecture.",
+                "ja": "比類なき複雑さを持つ器官である人間の脳は、静的な存在ではなく、ダイナミックで絶えず進化する構造体です。"
+            },
+            {
+                "en": "This remarkable adaptability, known as neuroplasticity, underpins our capacity for learning, memory formation, and recovery from injury.",
+                "ja": "神経可塑性として知られるこの驚くべき適応性は、学習、記憶形成、そして損傷からの回復能力の基盤となっています。"
+            },
+            {
+                "en": "Far from being fixed after childhood, neural pathways can be continuously reshaped throughout life in response to new experiences and environmental stimuli.",
+                "ja": "幼少期以降に固定されるどころか、神経経路は新しい経験や環境刺激に応じて生涯にわたって継続的に再形成され得ます。"
+            },
+            {
+                "en": "Such profound structural and functional reorganization allows individuals to acquire new skills, adapt to altered sensory inputs, and even compensate for damaged brain regions.",
+                "ja": "このような深遠な構造的・機能的再編成により、個人は新しいスキルを習得し、変化した感覚入力に適応し、さらには損傷した脳領域を補償することさえ可能になります。"
+            },
+            {
+                "en": "For instance, musicians exhibit enhanced auditory processing and motor control due to dedicated practice, while navigation experts often show enlarged hippocampal volumes.",
+                "ja": "例えば、音楽家は集中的な練習によって聴覚処理と運動制御が向上し、一方、ナビゲーションの専門家はしばしば海馬の容積が増大していることを示します。"
+            },
+            {
+                "en": "Recent research further elucidates the molecular mechanisms driving these changes, highlighting the intricate interplay between genetics, epigenetics, and environmental factors.",
+                "ja": "最近の研究は、これらの変化を駆動する分子メカニズムをさらに解明し、遺伝学、エピジェネティクス、環境要因間の複雑な相互作用を浮き彫りにしています。"
+            },
+            {
+                "en": "Understanding neuroplasticity is paramount not only for optimizing cognitive performance but also for developing novel therapeutic interventions for neurological disorders.",
+                "ja": "神経可塑性を理解することは、認知能力を最適化するだけでなく、神経疾患に対する新しい治療介入を開発するためにも極めて重要です。"
+            },
+            {
+                "en": "Conditions like stroke, traumatic brain injury, and even certain psychiatric illnesses could potentially benefit from strategies designed to harness or modulate the brain's intrinsic capacity for self-repair.",
+                "ja": "脳卒中、外傷性脳損傷、さらには特定の精神疾患といった病態は、脳の自己修復という内在的な能力を活用または調節するために設計された戦略から恩恵を受ける可能性があります。"
+            },
+            {
+                "en": "However, this malleability also implies a susceptibility to negative influences, such as chronic stress or substance abuse, which can lead to maladaptive changes.",
+                "ja": "しかしながら、この可塑性はまた、慢性的なストレスや薬物乱用といった負の影響に対する感受性も意味し、これらは不適応な変化を引き起こす可能性があります。"
+            },
+            {
+                "en": "Therefore, ongoing scientific inquiry aims to precisely delineate the conditions under which plasticity is beneficial versus detrimental, paving the way for targeted interventions.",
+                "ja": "したがって、進行中の科学的研究は、可塑性が有益である場合と有害である場合とを正確に区別する条件を明確にすることを目的としており、標的を絞った介入への道を開いています。"
+            },
+            {
+                "en": "The continuous unraveling of neuroplasticity's mysteries promises a future where brain health and cognitive resilience can be proactively fostered and restored.",
+                "ja": "神経可塑性の謎が継続的に解明されることは、脳の健康と認知的回復力が積極的に育まれ、回復される未来を約束します。"
+            }
+        ],
+        "date": "2026-05-03"
+    },
+    {
+        "title": "日常の深遠なる舞踏",
+        "level": 5,
+        "genre": "Daily Life",
+        "target_time": "5 mins",
+        "sentences": [
+            {
+                "en": "The quotidian rhythm, often dismissed as a mere anodyne backdrop to grander narratives, is in fact a labyrinthine tapestry woven with threads of habit, nascent aspirations, and the ephemeral shimmer of consciousness.",
+                "ja": "壮大な物語の単なる無害な背景として片付けられがちな日常のリズムは、実際には習慣、芽生えつつある願望、そして意識の儚い輝きが織りなす迷宮のようなタペストリーである。"
+            },
+            {
+                "en": "From the inchoate stirrings of dawn to the tacit rituals accompanying the evening's denouement, each micro-event contributes to a personal cosmology, a crucible where identity is perpetually forged and refined.",
+                "ja": "夜明けの未分化な目覚めから、夕方の終幕に伴う暗黙の儀式に至るまで、それぞれの微細な出来事が個人の宇宙論を形成し、そこはアイデンティティが絶えず鍛えられ、磨かれるるつぼとなる。"
+            },
+            {
+                "en": "Seldom do we pause to reify the confluence of mundane tasks – the brewing of coffee, the perusal of digital missives, the brief, serendipitous exchange with a neighbour – into a veritable nexus of meaning.",
+                "ja": "コーヒーを淹れること、デジタル通信を熟読すること、隣人との短い偶発的な交流といった、ありふれた仕事の合流を、真の意味の繋がりとして具体化するために立ち止まることはめったにない。"
+            },
+            {
+                "en": "This intricate choreography, though seemingly innocuous, often harbours a liminal space where the unspoken resides, a silent dialogue between expectation and the unfolding reality.",
+                "ja": "この複雑な演出は、一見無害に見えるが、しばしば語られないものが存在する境界領域、つまり期待と展開する現実との間の沈黙の対話を秘めている。"
+            },
+            {
+                "en": "The incessant digital hum, though a ubiquitous companion, can occasionally feel like a fly in the ointment, disrupting the otherwise tranquil introspection one hopes to cultivate amidst the daily grind.",
+                "ja": "絶え間ないデジタル音のざわめきは、遍在する伴侶であるにもかかわらず、時に玉に瑕のように感じられ、日々の奮闘の中で育みたいと願う、そうでなければ静かな内省を妨げることがある。"
+            },
+            {
+                "en": "Navigating the labyrinthine demands of professional obligations while simultaneously tending to the domestic sphere requires a subtle alchemy of time management and emotional resilience.",
+                "ja": "職業上の複雑な要求をこなしながら、同時に家庭生活の領域を管理することは、時間管理と精神的な回復力の微妙な錬金術を要する。"
+            },
+            {
+                "en": "To truly appreciate daily life is to peer beyond its superficiality, to take stock of the intricate interplay between the predetermined and the spontaneous, recognizing that even the most seemingly inconsequential moments hold a potent, albeit often overlooked, significance.",
+                "ja": "日常生活を真に評価するには、その表面的なもの以上のものを見抜き、予め定められたものと自発的なものとの間の複雑な相互作用を熟考し、最も取るに足らないように見える瞬間でさえ、強力で、しばしば見過ごされがちな重要性を持っていることを認識することである。"
+            }
+        ],
+        "date": "2026-05-03"
+    }
+]
