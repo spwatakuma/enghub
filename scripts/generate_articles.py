@@ -6,15 +6,29 @@ import requests
 import time
 import uuid
 
-# User provided key as fallback
-API_KEY = os.environ.get('GEMINI_API_KEY', 'AIzaSyCELNp_EiJu4fDlt_Np68TY6KbMLw4Y1e8')
-MODEL = 'gemini-2.5-flash'
-API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent?key={API_KEY}"
+# Use environment variable for the API Key. DO NOT hardcode the key here.
+API_KEY = os.environ.get('GEMINI_API_KEY')
+
+# Latest Models (as of May 2026) in order of preference/performance
+MODELS = [
+    'gemini-3.1-flash-lite-preview',
+    'gemini-3.1-pro-preview',
+    'gemini-3-flash-preview',
+    'gemini-2.5-flash',
+    'gemini-2.5-pro',
+    'gemini-1.5-flash'
+]
 
 GENRES = ["Technology", "Business", "Science", "Culture", "Daily Life"]
 
+def get_api_url(model_name):
+    return f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={API_KEY}"
+
 def generate_multiple_articles(count=5):
-    # Select unique genres for variety
+    if not API_KEY:
+        print("Error: GEMINI_API_KEY environment variable is not set.")
+        return []
+
     selected_genres = random.sample(GENRES, count) if count <= len(GENRES) else [random.choice(GENRES) for _ in range(count)]
     
     prompt = f"""
@@ -62,43 +76,44 @@ def generate_multiple_articles(count=5):
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
             "temperature": 0.7,
-            "maxOutputTokens": 15000 # Increase token limit for large batch
+            "maxOutputTokens": 15000
         }
     }
-    
-    print(f"Generating {count} articles in a single API call...")
-    try:
-        response = requests.post(API_URL, headers=headers, json=data)
-    except Exception as e:
-        print(f"Request failed: {e}")
-        return []
-    
-    if response.status_code != 200:
-        print(f"Error: {response.status_code}")
-        print(response.text)
-        return []
+
+    for model in MODELS:
+        print(f"Testing model: {model}...")
+        url = get_api_url(model)
+        try:
+            response = requests.post(url, headers=headers, json=data)
+            if response.status_code == 200:
+                result = response.json()
+                text = result['candidates'][0]['content']['parts'][0]['text']
+                text = text.replace('```json', '').replace('```', '').strip()
+                new_articles = json.loads(text)
+                
+                # Add metadata
+                for article in new_articles:
+                    article['id'] = str(uuid.uuid4())
+                    article['date'] = datetime.datetime.now().strftime('%Y-%m-%d')
+                
+                print(f"Success! Generated articles using {model}")
+                return new_articles
+            elif response.status_code == 404:
+                print(f"Model {model} not found (404).")
+            elif response.status_code == 403:
+                print(f"API Key error (403) with {model}. Skipping...")
+            else:
+                print(f"Model {model} failed with status {response.status_code}")
+        except Exception as e:
+            print(f"Exception with {model}: {e}")
         
-    try:
-        result = response.json()
-        text = result['candidates'][0]['content']['parts'][0]['text']
-        # Remove potential markdown formatting
-        text = text.replace('```json', '').replace('```', '').strip()
-        new_articles = json.loads(text)
-        
-        # Add metadata to each article
-        for article in new_articles:
-            article['id'] = str(uuid.uuid4())
-            article['date'] = datetime.datetime.now().strftime('%Y-%m-%d')
-            
-        return new_articles
-    except Exception as e:
-        print(f"Failed to parse JSON: {e}")
-        return []
+        time.sleep(1)
+    
+    return []
 
 def main():
     data_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'articles.json')
     
-    # Load existing articles
     if os.path.exists(data_file):
         with open(data_file, 'r', encoding='utf-8') as f:
             try:
@@ -108,22 +123,18 @@ def main():
     else:
         articles = []
         
-    # Generate 5 topics in ONE call
     new_articles = generate_multiple_articles(count=5)
         
     if new_articles:
         articles.extend(new_articles)
-        # Sort by date descending
         articles.sort(key=lambda x: x.get('date', ''), reverse=True)
-        
-        # Keep only the last 30 topics
         articles = articles[:30]
         
         with open(data_file, 'w', encoding='utf-8') as f:
             json.dump(articles, f, ensure_ascii=False, indent=4)
         print(f"Successfully added {len(new_articles)} topic articles.")
     else:
-        print("No articles were generated.")
+        print("Final result: Failed to generate articles with any available model.")
 
 if __name__ == "__main__":
     main()
