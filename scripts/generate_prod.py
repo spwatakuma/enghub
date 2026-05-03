@@ -1,0 +1,189 @@
+import json
+import uuid
+import datetime
+
+articles = [
+    {
+        "id": str(uuid.uuid4()),
+        "date": datetime.datetime.now().strftime('%Y-%m-%d'),
+        "genre": "Science",
+        "topic": "The James Webb Space Telescope",
+        "levels": {
+            "1": {
+                "title": "A Big New Telescope",
+                "target_time": "1 min",
+                "sentences": [
+                    {"en": "There is a new telescope in space.", "ja": "宇宙に新しい望遠鏡があります。"},
+                    {"en": "Its name is James Webb.", "ja": "その名前はジェイムズ・ウェッブです。"},
+                    {"en": "It is very big and very bright.", "ja": "それはとても大きく、とても明るいです。"},
+                    {"en": "It can see stars that are far away.", "ja": "遠くの星を見ることができます。"},
+                    {"en": "Scientists use it to learn about the sky.", "ja": "科学者たちは空について学ぶためにそれを使います。"}
+                ]
+            },
+            "2": {
+                "title": "The James Webb Telescope",
+                "target_time": "2 mins",
+                "sentences": [
+                    {"en": "The James Webb Space Telescope is a powerful new tool for astronomers.", "ja": "ジェイムズ・ウェッブ宇宙望遠鏡は、天文学者にとって強力な新しいツールです。"},
+                    {"en": "It was launched into space in 2021.", "ja": "それは2021年に宇宙に打ち上げられました。"},
+                    {"en": "Because it has a giant golden mirror, it can catch very faint light.", "ja": "巨大な金色の鏡を持っているので、非常に微かな光を捉えることができます。"},
+                    {"en": "It takes pictures of galaxies that were formed a long time ago.", "ja": "ずっと昔に形成された銀河の写真を撮ります。"},
+                    {"en": "People are excited to see what new things we will discover.", "ja": "私たちがどんな新しい発見をするのか、人々はワクワクしています。"}
+                ]
+            },
+            "3": {
+                "title": "Exploring the Universe with JWST",
+                "target_time": "3 mins",
+                "sentences": [
+                    {"en": "The James Webb Space Telescope (JWST) represents a massive leap forward in our ability to explore the universe.", "ja": "ジェイムズ・ウェッブ宇宙望遠鏡（JWST）は、宇宙を探求する私たちの能力における大きな飛躍を意味します。"},
+                    {"en": "Unlike older telescopes, it primarily observes the universe in infrared light, which is invisible to the human eye.", "ja": "古い望遠鏡とは異なり、主に人間の目には見えない赤外線で宇宙を観測します。"},
+                    {"en": "This allows the telescope to peer through dense clouds of dust where new stars and planets are being born.", "ja": "これにより、望遠鏡は新しい星や惑星が生まれている濃い塵の雲を通り抜けて見ることができます。"},
+                    {"en": "Astronomers hope that JWST will help answer fundamental questions about the origins of our solar system.", "ja": "天文学者たちは、JWSTが私たちの太陽系の起源に関する根本的な疑問に答えるのに役立つことを期待しています。"}
+                ]
+            },
+            "4": {
+                "title": "The Engineering Marvel of the Webb Telescope",
+                "target_time": "4 mins",
+                "sentences": [
+                    {"en": "Launched as the successor to the legendary Hubble, the James Webb Space Telescope is widely regarded as an unprecedented engineering marvel.", "ja": "伝説的なハッブルの後継機として打ち上げられたジェイムズ・ウェッブ宇宙望遠鏡は、前例のない工学の驚異として広く認識されています。"},
+                    {"en": "Operating at a Lagrange point roughly 1.5 million kilometers from Earth, it requires extreme sub-zero temperatures to function efficiently.", "ja": "地球から約150万キロ離れたラグランジュ点で運用されており、効率的に機能するためには極度の氷点下の温度を必要とします。"},
+                    {"en": "To maintain this frigid environment, it utilizes a sophisticated sunshield the size of a tennis court, which blocks thermal radiation from the Sun, Earth, and Moon.", "ja": "この極寒の環境を維持するため、テニスコートほどの大きさの高度なサンシールドを利用し、太陽、地球、月からの熱放射を遮断します。"},
+                    {"en": "Its high-resolution infrared instruments are already providing transformative insights into exoplanet atmospheres and the epoch of reionization.", "ja": "その高解像度赤外線機器は、すでに太陽系外惑星の大気と宇宙の再電離期に関する画期的な洞察を提供しています。"}
+                ]
+            },
+            "5": {
+                "title": "Cosmological Paradigms and the JWST Era",
+                "target_time": "5 mins",
+                "sentences": [
+                    {"en": "The deployment of the James Webb Space Telescope has unequivocally catalyzed a paradigm shift in contemporary astrophysics and observational cosmology.", "ja": "ジェイムズ・ウェッブ宇宙望遠鏡の展開は、間違いなく現代の天体物理学と観測宇宙論におけるパラダイムシフトを促進しました。"},
+                    {"en": "By capitalizing on its unprecedented mid-infrared sensitivity, researchers are systematically dismantling previously held assumptions regarding early galaxy formation.", "ja": "その前例のない中間赤外線感度を活用することで、研究者たちは初期の銀河形成に関して以前に抱かれていた仮説を体系的に覆しています。"},
+                    {"en": "The meticulous spectroscopic data acquired by its NIRCam and MIRI instruments facilitate the intricate chemical characterization of exoplanetary atmospheres, searching for definitive biosignatures.", "ja": "NIRCamおよびMIRI機器によって取得された綿密な分光データは、系外惑星の大気の複雑な化学的特性評価を容易にし、決定的な生命の痕跡を探し求めています。"},
+                    {"en": "Ultimately, the myriad discoveries emanating from this observatory are poised to redefine humanity's ontological comprehension of the cosmos.", "ja": "最終的に、この天文台からもたらされる無数の発見は、人類の宇宙に対する存在論的理解を再定義する態勢が整っています。"}
+                ]
+            }
+        }
+    },
+    {
+        "id": str(uuid.uuid4()),
+        "date": datetime.datetime.now().strftime('%Y-%m-%d'),
+        "genre": "Business",
+        "topic": "The Shift to Remote Work",
+        "levels": {
+            "1": {
+                "title": "Working from Home",
+                "target_time": "1 min",
+                "sentences": [
+                    {"en": "Many people work from home now.", "ja": "今では多くの人が家で働いています。"},
+                    {"en": "They use computers to talk to friends and bosses.", "ja": "彼らは友達や上司と話すためにコンピュータを使います。"},
+                    {"en": "They do not need to take a train or bus.", "ja": "電車やバスに乗る必要はありません。"},
+                    {"en": "This saves a lot of time.", "ja": "これは多くの時間を節約します。"},
+                    {"en": "Some people like it, but some people feel lonely.", "ja": "それを好む人もいますが、寂しく感じる人もいます。"}
+                ]
+            },
+            "2": {
+                "title": "The New Remote Office",
+                "target_time": "2 mins",
+                "sentences": [
+                    {"en": "In recent years, remote work has become very popular.", "ja": "近年、リモートワークが非常に人気になっています。"},
+                    {"en": "Companies realized that employees can do their jobs well outside the office.", "ja": "企業は、従業員がオフィスの外でも仕事をうまくこなせることに気づきました。"},
+                    {"en": "People enjoy having more flexible schedules and saving money on commuting.", "ja": "人々はより柔軟なスケジュールを持ち、通勤費を節約することを楽しんでいます。"},
+                    {"en": "However, it can be difficult to separate work life from personal life.", "ja": "しかし、仕事と私生活を分けるのは難しい場合があります。"},
+                    {"en": "Managers are trying to find new ways to keep teams connected.", "ja": "マネージャーは、チームのつながりを維持するための新しい方法を見つけようとしています。"}
+                ]
+            },
+            "3": {
+                "title": "Adapting to Remote Work Culture",
+                "target_time": "3 mins",
+                "sentences": [
+                    {"en": "The transition to remote work has dramatically reshaped the modern corporate landscape.", "ja": "リモートワークへの移行は、現代の企業環境を劇的に再構築しました。"},
+                    {"en": "While productivity levels have generally remained stable or even increased, new challenges have emerged.", "ja": "生産性レベルは概ね安定しているか向上さえしていますが、新たな課題も浮上しています。"},
+                    {"en": "Organizations are increasingly investing in digital collaboration tools to simulate the environment of a physical office.", "ja": "組織は、物理的なオフィスの環境をシミュレートするために、デジタルコラボレーションツールへの投資を増やしています。"},
+                    {"en": "Human resources departments are also focusing heavily on employee mental health, as prolonged isolation can lead to burnout.", "ja": "長期の孤立は燃え尽き症候群につながる可能性があるため、人事部門も従業員のメンタルヘルスに大いに注力しています。"}
+                ]
+            },
+            "4": {
+                "title": "Economic Implications of Telecommuting",
+                "target_time": "4 mins",
+                "sentences": [
+                    {"en": "The widespread adoption of telecommuting models has triggered profound macroeconomic shifts across urban centers globally.", "ja": "テレワークモデルの普及は、世界中の都市部で深刻なマクロ経済的変化を引き起こしました。"},
+                    {"en": "Commercial real estate sectors are grappling with declining demand, compelling landlords to repurpose traditional office spaces.", "ja": "商業用不動産部門は需要の減少に直面しており、家主は伝統的なオフィススペースの用途変更を余儀なくされています。"},
+                    {"en": "Conversely, suburban and rural economies are experiencing unexpected revitalization as workers migrate away from expensive metropolitan hubs.", "ja": "逆に、労働者が高価な大都市の拠点から移住するため、郊外や地方の経済は予期せぬ活性化を経験しています。"},
+                    {"en": "To remain competitive, forward-thinking enterprises are adopting hybrid frameworks that blend remote flexibility with targeted in-person collaboration.", "ja": "競争力を維持するため、先見の明のある企業は、リモートの柔軟性と目的を持った対面でのコラボレーションを融合させたハイブリッドな枠組みを採用しています。"}
+                ]
+            },
+            "5": {
+                "title": "Decentralization of the Modern Workforce",
+                "target_time": "5 mins",
+                "sentences": [
+                    {"en": "The systemic decentralization of the workforce constitutes one of the most consequential socioeconomic transformations of the 21st century.", "ja": "労働力の体系的な分散化は、21世紀における最も重要な社会経済的変革の一つを構成しています。"},
+                    {"en": "This ubiquitous shift necessitates a comprehensive reevaluation of traditional managerial paradigms, pivoting from attendance-based oversight to outcome-oriented metrics.", "ja": "この遍在的な移行は、出勤に基づく監視から成果志向の指標へと軸足を移し、伝統的な管理パラダイムの包括的な再評価を必要とします。"},
+                    {"en": "Furthermore, the decoupling of geographical location from employment opportunities is intrinsically altering global talent acquisition strategies, engendering a borderless meritocracy.", "ja": "さらに、地理的な場所と雇用機会の分離は、世界的な人材獲得戦略を本質的に変化させ、国境のない実力主義を生み出しています。"},
+                    {"en": "Nevertheless, mitigating the insidious erosion of corporate culture and spontaneous innovation remains a paramount imperative for executive leadership.", "ja": "それにもかかわらず、企業文化と自発的なイノベーションの潜行的な浸食を緩和することは、経営トップにとって依然として最重要課題です。"}
+                ]
+            }
+        }
+    },
+    {
+        "id": str(uuid.uuid4()),
+        "date": datetime.datetime.now().strftime('%Y-%m-%d'),
+        "genre": "Culture",
+        "topic": "Traditional Japanese Tea Ceremony",
+        "levels": {
+            "1": {
+                "title": "Drinking Green Tea",
+                "target_time": "1 min",
+                "sentences": [
+                    {"en": "Green tea is very famous in Japan.", "ja": "緑茶は日本でとても有名です。"},
+                    {"en": "People drink it in a special room.", "ja": "人々は特別な部屋でそれを飲みます。"},
+                    {"en": "The room is quiet and peaceful.", "ja": "その部屋は静かで平和です。"},
+                    {"en": "They use a small bowl to drink the tea.", "ja": "彼らは茶を飲むために小さな茶碗を使います。"},
+                    {"en": "It tastes a little bit bitter but very good.", "ja": "少し苦い味がしますが、とても美味しいです。"}
+                ]
+            },
+            "2": {
+                "title": "The Japanese Tea Ceremony",
+                "target_time": "2 mins",
+                "sentences": [
+                    {"en": "The Japanese tea ceremony is a traditional cultural activity.", "ja": "日本の茶道は伝統的な文化活動です。"},
+                    {"en": "It is called 'Sado' or 'Chado' in Japanese.", "ja": "日本語では「茶道」と呼ばれます。"},
+                    {"en": "The host prepares matcha, which is a powdered green tea, for the guests.", "ja": "主人は客のために、粉末の緑茶である抹茶を準備します。"},
+                    {"en": "Every movement is carefully planned to show respect and harmony.", "ja": "すべての動きは、敬意と調和を示すために注意深く計画されています。"},
+                    {"en": "Guests usually eat a sweet treat before drinking the bitter tea.", "ja": "客は通常、苦いお茶を飲む前に甘いお菓子を食べます。"}
+                ]
+            },
+            "3": {
+                "title": "Understanding the Way of Tea",
+                "target_time": "3 mins",
+                "sentences": [
+                    {"en": "The Way of Tea is a highly structured ritual that goes far beyond simply making a beverage.", "ja": "茶道は、単に飲み物を作ることにとどまらない、高度に構造化された儀式です。"},
+                    {"en": "Rooted in Zen Buddhism, the ceremony emphasizes four core principles: harmony, respect, purity, and tranquility.", "ja": "禅仏教に根ざしたこの儀式は、和、敬、清、寂という4つの核心的な原則を強調しています。"},
+                    {"en": "The tearoom itself is designed to be simple and unadorned, drawing attention to the beauty of the moment.", "ja": "茶室自体はシンプルで飾らないように設計されており、その瞬間の美しさに注意を向けさせます。"},
+                    {"en": "Practitioners spend years mastering the precise choreography required to conduct the ceremony gracefully.", "ja": "実践者たちは、儀式を優雅に執り行うために必要な正確な所作を習得するのに何年も費やします。"}
+                ]
+            },
+            "4": {
+                "title": "Aesthetics and Philosophy of Sado",
+                "target_time": "4 mins",
+                "sentences": [
+                    {"en": "Central to the philosophy of the Japanese tea ceremony is the concept of 'Wabi-sabi', an aesthetic that finds beauty in imperfection and transience.", "ja": "日本の茶道の哲学の中心にあるのは「わび・さび」という概念であり、これは不完全さと無常の中に美を見出す美学です。"},
+                    {"en": "The utensils used, such as the rustic tea bowls and bamboo scoops, are meticulously selected to reflect the changing seasons and the specific occasion.", "ja": "素朴な茶碗や竹の茶杓など、使用される道具は、移り変わる季節や特定の行事を反映するように細心の注意を払って選ばれます。"},
+                    {"en": "Furthermore, the philosophy of 'Ichi-go ichi-e' (one time, one meeting) dictates that each gathering is entirely unique and can never be perfectly replicated.", "ja": "さらに、「一期一会」の哲学は、それぞれの集まりが完全に独自のものであり、決して完全に複製することはできないと規定しています。"},
+                    {"en": "Through this mindful appreciation, participants cultivate a profound awareness of the ephemeral nature of human existence.", "ja": "このマインドフルな鑑賞を通じて、参加者は人間の存在の儚さに対する深い認識を育みます。"}
+                ]
+            },
+            "5": {
+                "title": "Zen Epistemology in Ritualistic Practices",
+                "target_time": "5 mins",
+                "sentences": [
+                    {"en": "The traditional Japanese tea ceremony serves as a quintessential embodiment of Zen epistemology integrated into a performative art form.", "ja": "伝統的な日本の茶道は、パフォーマティブな芸術形式に統合された禅の認識論の典型的な体現として機能します。"},
+                    {"en": "By stripping away superfluous ornamentation, the architecture of the chashitsu (tearoom) compels participants to engage in deep introspection and unmediated sensory perception.", "ja": "余分な装飾を削ぎ落とすことで、茶室の建築は参加者に深い内省と直接的な感覚知覚に従事することを強います。"},
+                    {"en": "The rigorously prescribed kinetics of the procedure function not as rigid constraints, but rather as meditative focal points that facilitate cognitive liberation.", "ja": "手順の厳密に規定された運動は、硬直した制約としてではなく、認知の解放を促進する瞑想の焦点として機能します。"},
+                    {"en": "Ultimately, the assimilation of these esoteric principles transcends mere cultural exhibition, offering a profound methodology for achieving existential equilibrium.", "ja": "究極的には、これらの深遠な原則の同化は単なる文化の展示を超越し、実存的な均衡を達成するための深遠な方法論を提供します。"}
+                ]
+            }
+        }
+    }
+]
+
+with open('/home/kusanagi/enghub/DocumentRoot/data/articles.json', 'w', encoding='utf-8') as f:
+    json.dump(articles, f, ensure_ascii=False, indent=4)
