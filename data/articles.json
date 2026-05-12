@@ -1,5 +1,1030 @@
 [
     {
+        "genre": "Science",
+        "topic": "The Photosynthesis Process",
+        "levels": {
+            "1": {
+                "title": "Plants and Light",
+                "target_time": "1 min",
+                "vocabulary": [
+                    {
+                        "word": "Photosynthesis",
+                        "meaning": "光合成"
+                    },
+                    {
+                        "word": "Energy",
+                        "meaning": "エネルギー"
+                    }
+                ],
+                "grammar": "主語＋動詞の単純な現在形（事実を表す）を使用しています。",
+                "sentences": [
+                    {
+                        "en": "Plants need light.",
+                        "ja": "植物は光を必要とします。"
+                    },
+                    {
+                        "en": "They use the sun.",
+                        "ja": "彼らは太陽を使います。"
+                    },
+                    {
+                        "en": "This is photosynthesis.",
+                        "ja": "これが光合成です。"
+                    },
+                    {
+                        "en": "Plants make food from light.",
+                        "ja": "植物は光から食べ物を作ります。"
+                    },
+                    {
+                        "en": "It gives them energy.",
+                        "ja": "それは彼らにエネルギーを与えます。"
+                    }
+                ]
+            },
+            "2": {
+                "title": "How Plants Make Food",
+                "target_time": "1.5 min",
+                "vocabulary": [
+                    {
+                        "word": "Absorb",
+                        "meaning": "吸収する"
+                    },
+                    {
+                        "word": "Nutrients",
+                        "meaning": "栄養素"
+                    }
+                ],
+                "grammar": "接続詞「and」や「so」を使って、短い文をつなげる練習をしています。",
+                "sentences": [
+                    {
+                        "en": "Plants are amazing living things.",
+                        "ja": "植物は素晴らしい生き物です。"
+                    },
+                    {
+                        "en": "They do not eat food like we do.",
+                        "ja": "彼らは私たちのように食べ物を食べません。"
+                    },
+                    {
+                        "en": "Instead, they use photosynthesis.",
+                        "ja": "その代わりに、光合成を行います。"
+                    },
+                    {
+                        "en": "Leaves absorb sunlight and water.",
+                        "ja": "葉は日光と水を吸収します。"
+                    },
+                    {
+                        "en": "They change these into sugar.",
+                        "ja": "それらを砂糖に変えます。"
+                    },
+                    {
+                        "en": "This sugar gives them nutrients to grow big and strong.",
+                        "ja": "この砂糖が、大きく強く育つための栄養素となります。"
+                    }
+                ]
+            },
+            "3": {
+                "title": "The Mechanism of Photosynthesis",
+                "target_time": "2 min",
+                "vocabulary": [
+                    {
+                        "word": "Chlorophyll",
+                        "meaning": "葉緑素"
+                    },
+                    {
+                        "word": "Atmosphere",
+                        "meaning": "大気"
+                    }
+                ],
+                "grammar": "関係代名詞「which」や受動態の基礎的な形を含んでいます。",
+                "sentences": [
+                    {
+                        "en": "Photosynthesis is a chemical process that plants use to create energy.",
+                        "ja": "光合成は、植物がエネルギーを作り出すために用いる化学的なプロセスです。"
+                    },
+                    {
+                        "en": "Inside the leaves, there is a green pigment called chlorophyll.",
+                        "ja": "葉の中には、葉緑素と呼ばれる緑色の色素があります。"
+                    },
+                    {
+                        "en": "This pigment captures sunlight effectively.",
+                        "ja": "この色素が効率的に日光を捉えます。"
+                    },
+                    {
+                        "en": "Plants also take in carbon dioxide from the atmosphere.",
+                        "ja": "植物は大気中から二酸化炭素も取り込みます。"
+                    },
+                    {
+                        "en": "By combining sunlight, water, and carbon dioxide, they produce glucose.",
+                        "ja": "日光、水、二酸化炭素を組み合わせることで、彼らはブドウ糖を生成します。"
+                    },
+                    {
+                        "en": "This glucose serves as their primary fuel for survival.",
+                        "ja": "このブドウ糖が生存のための主要な燃料となります。"
+                    }
+                ]
+            },
+            "4": {
+                "title": "Biological Energy Conversion",
+                "target_time": "2.5 min",
+                "vocabulary": [
+                    {
+                        "word": "Synthesize",
+                        "meaning": "合成する"
+                    },
+                    {
+                        "word": "Vital",
+                        "meaning": "不可欠な"
+                    }
+                ],
+                "grammar": "分詞構文や、因果関係を示す複雑な文構造を使用しています。",
+                "sentences": [
+                    {
+                        "en": "Photosynthesis is a vital biological function that sustains life on Earth.",
+                        "ja": "光合成は、地球上の生命を維持する不可欠な生物学的機能です。"
+                    },
+                    {
+                        "en": "Through this complex mechanism, plants synthesize organic compounds from inorganic materials.",
+                        "ja": "この複雑なメカニズムを通じて、植物は無機物から有機化合物を合成します。"
+                    },
+                    {
+                        "en": "Chlorophyll acts as a catalyst, absorbing photons from sunlight.",
+                        "ja": "葉緑素は触媒として働き、日光から光子を吸収します。"
+                    },
+                    {
+                        "en": "Water molecules are split, releasing oxygen as a byproduct.",
+                        "ja": "水分子が分解され、副産物として酸素が放出されます。"
+                    },
+                    {
+                        "en": "The remaining carbon structures are then converted into carbohydrates.",
+                        "ja": "残った炭素構造は、その後炭水化物へと変換されます。"
+                    },
+                    {
+                        "en": "This process not only fuels the plant but also regulates the global oxygen cycle.",
+                        "ja": "このプロセスは植物に燃料を供給するだけでなく、地球規模の酸素サイクルを調整しています。"
+                    }
+                ]
+            },
+            "5": {
+                "title": "The Complexity of Photoautotrophic Systems",
+                "target_time": "3 min",
+                "vocabulary": [
+                    {
+                        "word": "Autotrophic",
+                        "meaning": "独立栄養の"
+                    },
+                    {
+                        "word": "Metabolic",
+                        "meaning": "代謝の"
+                    }
+                ],
+                "grammar": "倒置法、仮定法、関係詞の非制限用法など、高度な構文を網羅しています。",
+                "sentences": [
+                    {
+                        "en": "Photosynthesis represents the cornerstone of photoautotrophic existence.",
+                        "ja": "光合成は、光独立栄養生物の存在の礎となっています。"
+                    },
+                    {
+                        "en": "Within the chloroplasts, a sophisticated metabolic pathway orchestrates the conversion of light energy into chemical bonds.",
+                        "ja": "葉緑体内部では、洗練された代謝経路が光エネルギーの化学結合への変換を調整しています。"
+                    },
+                    {
+                        "en": "Not only does this mechanism facilitate plant growth, but it also dictates the atmospheric composition of our planet.",
+                        "ja": "このメカニズムは植物の成長を促進するだけでなく、地球の大気組成をも決定づけています。"
+                    },
+                    {
+                        "en": "Were it not for the splitting of water molecules, the biosphere would lack the essential oxygen required for aerobic respiration.",
+                        "ja": "もし水分子の分解がなければ、生物圏は好気呼吸に必要な不可欠な酸素を欠くことになっていたでしょう。"
+                    },
+                    {
+                        "en": "Thus, the intricate interplay between solar radiation and botanical physiology remains a subject of intense scientific inquiry.",
+                        "ja": "したがって、太陽放射と植物生理学の間の複雑な相互作用は、依然として科学的な探究の重要なテーマです。"
+                    }
+                ]
+            }
+        },
+        "id": "a336e700-9cbb-4234-ada9-71fb074512e1",
+        "date": "2026-05-12"
+    },
+    {
+        "genre": "Technology",
+        "topic": "The Impact of Artificial Intelligence",
+        "levels": {
+            "1": {
+                "title": "Smart Computers",
+                "target_time": "1 min",
+                "vocabulary": [
+                    {
+                        "word": "Artificial Intelligence",
+                        "meaning": "人工知能"
+                    },
+                    {
+                        "word": "Robot",
+                        "meaning": "ロボット"
+                    }
+                ],
+                "grammar": "be動詞と一般動詞の現在形の組み合わせ。",
+                "sentences": [
+                    {
+                        "en": "Computers are very smart now.",
+                        "ja": "コンピュータは今、とても賢いです。"
+                    },
+                    {
+                        "en": "We call this AI.",
+                        "ja": "私たちはこれをAIと呼びます。"
+                    },
+                    {
+                        "en": "AI helps us every day.",
+                        "ja": "AIは毎日私たちを助けてくれます。"
+                    },
+                    {
+                        "en": "It can talk and write.",
+                        "ja": "それは話したり書いたりできます。"
+                    },
+                    {
+                        "en": "People use AI for work.",
+                        "ja": "人々は仕事のためにAIを使います。"
+                    }
+                ]
+            },
+            "2": {
+                "title": "AI in Our Daily Lives",
+                "target_time": "1.5 min",
+                "vocabulary": [
+                    {
+                        "word": "Predict",
+                        "meaning": "予測する"
+                    },
+                    {
+                        "word": "Task",
+                        "meaning": "作業"
+                    }
+                ],
+                "grammar": "助動詞「can」や「will」を使った未来への言及。",
+                "sentences": [
+                    {
+                        "en": "Artificial intelligence is changing the world.",
+                        "ja": "人工知能は世界を変えています。"
+                    },
+                    {
+                        "en": "Many people have AI on their phones.",
+                        "ja": "多くの人が携帯電話にAIを入れています。"
+                    },
+                    {
+                        "en": "It can answer questions quickly.",
+                        "ja": "それは質問に素早く答えることができます。"
+                    },
+                    {
+                        "en": "AI can also predict what we want to buy.",
+                        "ja": "AIは私たちが何を買いたいかも予測できます。"
+                    },
+                    {
+                        "en": "It makes difficult tasks much easier for us.",
+                        "ja": "それは難しい作業を私たちにとってずっと簡単にします。"
+                    },
+                    {
+                        "en": "The future of technology looks very exciting.",
+                        "ja": "テクノロジーの未来はとてもワクワクするものに見えます。"
+                    }
+                ]
+            },
+            "3": {
+                "title": "Advancements in AI Technology",
+                "target_time": "2 min",
+                "vocabulary": [
+                    {
+                        "word": "Algorithm",
+                        "meaning": "アルゴリズム"
+                    },
+                    {
+                        "word": "Efficiency",
+                        "meaning": "効率"
+                    }
+                ],
+                "grammar": "現在完了形「has changed」や関係代名詞を使用。",
+                "sentences": [
+                    {
+                        "en": "AI has evolved significantly over the last decade.",
+                        "ja": "AIはここ10年で著しく進化しました。"
+                    },
+                    {
+                        "en": "Complex algorithms allow machines to learn from data.",
+                        "ja": "複雑なアルゴリズムにより、機械はデータから学習することができます。"
+                    },
+                    {
+                        "en": "This technology improves efficiency in various industries.",
+                        "ja": "この技術は様々な産業において効率を向上させます。"
+                    },
+                    {
+                        "en": "For example, doctors use AI to detect illnesses earlier.",
+                        "ja": "例えば、医師は病気をより早く発見するためにAIを使います。"
+                    },
+                    {
+                        "en": "While AI is helpful, we must use it responsibly.",
+                        "ja": "AIは便利ですが、私たちは責任を持って使わなければなりません。"
+                    },
+                    {
+                        "en": "It is important to understand both the benefits and the risks.",
+                        "ja": "利点とリスクの両方を理解することが重要です。"
+                    }
+                ]
+            },
+            "4": {
+                "title": "The Paradigm Shift of AI",
+                "target_time": "2.5 min",
+                "vocabulary": [
+                    {
+                        "word": "Automation",
+                        "meaning": "自動化"
+                    },
+                    {
+                        "word": "Innovation",
+                        "meaning": "革新"
+                    }
+                ],
+                "grammar": "仮定法現在や、分詞を用いた修飾。",
+                "sentences": [
+                    {
+                        "en": "The rapid development of artificial intelligence is triggering a global paradigm shift.",
+                        "ja": "人工知能の急速な発展は、世界的なパラダイムシフトを引き起こしています。"
+                    },
+                    {
+                        "en": "Driven by machine learning, automation is replacing repetitive human labor.",
+                        "ja": "機械学習に牽引され、自動化は繰り返しの人間労働を置き換えつつあります。"
+                    },
+                    {
+                        "en": "This innovation creates opportunities for economic growth.",
+                        "ja": "この革新は経済成長の機会を創出します。"
+                    },
+                    {
+                        "en": "However, it also raises ethical questions regarding privacy and bias.",
+                        "ja": "しかし、それはプライバシーや偏見に関する倫理的な問題も提起します。"
+                    },
+                    {
+                        "en": "Society must adapt to these changes by focusing on education and reskilling.",
+                        "ja": "社会は教育やスキルの再習得に焦点を当てることで、これらの変化に適応しなければなりません。"
+                    },
+                    {
+                        "en": "Collaboration between humans and AI will be the key to future success.",
+                        "ja": "人間とAIの協力が、将来の成功の鍵となるでしょう。"
+                    }
+                ]
+            },
+            "5": {
+                "title": "Navigating the Era of Intelligent Systems",
+                "target_time": "3 min",
+                "vocabulary": [
+                    {
+                        "word": "Ubiquitous",
+                        "meaning": "遍在する"
+                    },
+                    {
+                        "word": "Augmentation",
+                        "meaning": "拡張"
+                    }
+                ],
+                "grammar": "倒置、挿入句、関係詞の省略を含む高度な構文。",
+                "sentences": [
+                    {
+                        "en": "In an increasingly ubiquitous digital landscape, AI stands as the primary catalyst for structural change.",
+                        "ja": "ますます遍在するデジタル環境において、AIは構造変化の主要な触媒として存在しています。"
+                    },
+                    {
+                        "en": "Its capacity for cognitive augmentation transcends mere data processing, enabling profound insights.",
+                        "ja": "認知を拡張するその能力は、単なるデータ処理を超越し、深い洞察を可能にします。"
+                    },
+                    {
+                        "en": "Notwithstanding the technical prowess, one must critically evaluate the socio-economic implications.",
+                        "ja": "技術的な実力はさておき、我々は社会経済的な影響を批判的に評価しなければなりません。"
+                    },
+                    {
+                        "en": "Should we fail to govern these systems, we risk creating imbalances that could destabilize established institutions.",
+                        "ja": "もしこれらのシステムを統治することに失敗すれば、確立された制度を不安定にする不均衡を生み出す危険性があります。"
+                    },
+                    {
+                        "en": "Ultimately, the integration of AI should aim for the enhancement of human potential rather than its displacement.",
+                        "ja": "最終的に、AIの統合は人間の可能性を代替することではなく、拡張することを目指すべきなのです。"
+                    }
+                ]
+            }
+        },
+        "id": "d059b65b-833d-488b-9960-9dbcafeaf48f",
+        "date": "2026-05-12"
+    },
+    {
+        "genre": "Business",
+        "topic": "The Importance of Networking",
+        "levels": {
+            "1": {
+                "title": "Meeting New People",
+                "target_time": "1 min",
+                "vocabulary": [
+                    {
+                        "word": "Network",
+                        "meaning": "人脈"
+                    },
+                    {
+                        "word": "Success",
+                        "meaning": "成功"
+                    }
+                ],
+                "grammar": "簡単な命令形や肯定文。",
+                "sentences": [
+                    {
+                        "en": "You need friends for work.",
+                        "ja": "仕事には友達が必要です。"
+                    },
+                    {
+                        "en": "Talk to many people.",
+                        "ja": "多くの人と話してください。"
+                    },
+                    {
+                        "en": "This is a network.",
+                        "ja": "これが人脈です。"
+                    },
+                    {
+                        "en": "A good network helps you.",
+                        "ja": "良い人脈はあなたを助けます。"
+                    },
+                    {
+                        "en": "It brings you success.",
+                        "ja": "それはあなたに成功をもたらします。"
+                    }
+                ]
+            },
+            "2": {
+                "title": "Building Professional Connections",
+                "target_time": "1.5 min",
+                "vocabulary": [
+                    {
+                        "word": "Opportunity",
+                        "meaning": "機会"
+                    },
+                    {
+                        "word": "Professional",
+                        "meaning": "プロの"
+                    }
+                ],
+                "grammar": "「should」を使ったアドバイスの表現。",
+                "sentences": [
+                    {
+                        "en": "Networking is important for your career.",
+                        "ja": "ネットワーキング（人脈作り）はキャリアにとって重要です。"
+                    },
+                    {
+                        "en": "You should meet new people at work.",
+                        "ja": "職場で新しい人たちと会うべきです。"
+                    },
+                    {
+                        "en": "They can share new ideas with you.",
+                        "ja": "彼らは新しいアイデアを共有してくれます。"
+                    },
+                    {
+                        "en": "Sometimes, they offer you a new job opportunity.",
+                        "ja": "時々、彼らは新しい仕事の機会をくれます。"
+                    },
+                    {
+                        "en": "Always be polite and kind to others.",
+                        "ja": "常に他人に対して丁寧で親切にしてください。"
+                    },
+                    {
+                        "en": "Good connections lead to a better future.",
+                        "ja": "良い繋がりはより良い未来につながります。"
+                    }
+                ]
+            },
+            "3": {
+                "title": "Strategic Networking in Business",
+                "target_time": "2 min",
+                "vocabulary": [
+                    {
+                        "word": "Collaboration",
+                        "meaning": "協力"
+                    },
+                    {
+                        "word": "Mutual",
+                        "meaning": "相互の"
+                    }
+                ],
+                "grammar": "「not only... but also」などの並列構造。",
+                "sentences": [
+                    {
+                        "en": "Effective networking is not just about exchanging business cards.",
+                        "ja": "効果的なネットワーキングとは、単に名刺を交換することではありません。"
+                    },
+                    {
+                        "en": "It is about building trust and mutual respect.",
+                        "ja": "それは信頼と相互尊重を築くことです。"
+                    },
+                    {
+                        "en": "When you connect with others, you open doors to collaboration.",
+                        "ja": "他者とつながる時、協力への扉が開かれます。"
+                    },
+                    {
+                        "en": "These relationships provide support during challenging times.",
+                        "ja": "これらの関係は、困難な時期にサポートを提供してくれます。"
+                    },
+                    {
+                        "en": "You should attend industry events to expand your reach.",
+                        "ja": "リーチを広げるために業界のイベントに参加すべきです。"
+                    },
+                    {
+                        "en": "Building a strong network takes time and consistent effort.",
+                        "ja": "強固な人脈を築くには時間と継続的な努力が必要です。"
+                    }
+                ]
+            },
+            "4": {
+                "title": "The Value of Social Capital",
+                "target_time": "2.5 min",
+                "vocabulary": [
+                    {
+                        "word": "Social Capital",
+                        "meaning": "社会関係資本"
+                    },
+                    {
+                        "word": "Leverage",
+                        "meaning": "活用する"
+                    }
+                ],
+                "grammar": "関係代名詞の非制限用法や、分詞構文。",
+                "sentences": [
+                    {
+                        "en": "In the modern corporate world, networking is synonymous with building social capital.",
+                        "ja": "現代の企業社会において、ネットワーキングは社会関係資本の構築と同義です。"
+                    },
+                    {
+                        "en": "Leveraging these connections allows professionals to access resources that are otherwise unavailable.",
+                        "ja": "これらのつながりを活用することで、専門家は通常では利用できないリソースにアクセスできます。"
+                    },
+                    {
+                        "en": "By cultivating genuine relationships, one can foster long-term career growth.",
+                        "ja": "誠実な関係を育むことで、長期的なキャリアの成長を促進できます。"
+                    },
+                    {
+                        "en": "Networking also facilitates knowledge sharing across different sectors.",
+                        "ja": "ネットワーキングはまた、異なるセクター間での知識共有を容易にします。"
+                    },
+                    {
+                        "en": "It is imperative to maintain these ties even when not immediately seeking a job.",
+                        "ja": "すぐに仕事を探していない時でも、これらの絆を維持することが不可欠です。"
+                    },
+                    {
+                        "en": "Ultimately, your network reflects your professional reputation.",
+                        "ja": "結局のところ、あなたの人脈はあなたの専門家としての評判を反映するのです。"
+                    }
+                ]
+            },
+            "5": {
+                "title": "Strategic Alliances and Network Theory",
+                "target_time": "3 min",
+                "vocabulary": [
+                    {
+                        "word": "Synergy",
+                        "meaning": "相乗効果"
+                    },
+                    {
+                        "word": "Reciprocity",
+                        "meaning": "互恵性"
+                    }
+                ],
+                "grammar": "倒置法、仮定法過去完了、難解な語彙を用いた複雑な文構成。",
+                "sentences": [
+                    {
+                        "en": "Networking transcends simple acquaintance, functioning as a complex system of strategic alliances.",
+                        "ja": "ネットワーキングは単なる知人関係を超越し、戦略的同盟の複雑なシステムとして機能します。"
+                    },
+                    {
+                        "en": "The principle of reciprocity serves as the bedrock for sustainable professional growth.",
+                        "ja": "互恵性の原則が、持続可能なキャリア成長の基盤として機能します。"
+                    },
+                    {
+                        "en": "Should one master the art of network orchestration, the resulting synergy can catalyze unprecedented business success.",
+                        "ja": "もし誰かが人脈構築の技術を習得すれば、生じる相乗効果がかつてないビジネスの成功を触媒するでしょう。"
+                    },
+                    {
+                        "en": "It is not merely the number of connections, but the quality and diversity of the network that determines its value.",
+                        "ja": "単なるつながりの数ではなく、その価値を決定づけるのは人脈の質と多様性です。"
+                    },
+                    {
+                        "en": "Those who navigate these networks with authenticity and foresight will inevitably gain a competitive advantage in the global market.",
+                        "ja": "真摯さと先見性を持ってこれらの人脈を渡り歩く者は、必然的にグローバル市場において競争優位性を獲得するでしょう。"
+                    }
+                ]
+            }
+        },
+        "id": "1e61f4df-d4b0-4aa2-a107-23a699fc08a1",
+        "date": "2026-05-12"
+    },
+    {
+        "genre": "Culture",
+        "topic": "The Tradition of Tea Ceremonies",
+        "levels": {
+            "1": {
+                "title": "Tea Time",
+                "target_time": "1 min",
+                "vocabulary": [
+                    {
+                        "word": "Tradition",
+                        "meaning": "伝統"
+                    },
+                    {
+                        "word": "Ceremony",
+                        "meaning": "儀式"
+                    }
+                ],
+                "grammar": "単純な現在形の肯定文。",
+                "sentences": [
+                    {
+                        "en": "Tea is very popular.",
+                        "ja": "お茶はとても人気があります。"
+                    },
+                    {
+                        "en": "Japan has a tea ceremony.",
+                        "ja": "日本には茶道があります。"
+                    },
+                    {
+                        "en": "It is a special tradition.",
+                        "ja": "それは特別な伝統です。"
+                    },
+                    {
+                        "en": "People drink tea slowly.",
+                        "ja": "人々はお茶をゆっくり飲みます。"
+                    },
+                    {
+                        "en": "It is very peaceful.",
+                        "ja": "それはとても穏やかです。"
+                    }
+                ]
+            },
+            "2": {
+                "title": "The Beauty of Tea Ceremony",
+                "target_time": "1.5 min",
+                "vocabulary": [
+                    {
+                        "word": "Respect",
+                        "meaning": "敬意"
+                    },
+                    {
+                        "word": "Peaceful",
+                        "meaning": "穏やかな"
+                    }
+                ],
+                "grammar": "「There is/are」構文と形容詞の活用。",
+                "sentences": [
+                    {
+                        "en": "The Japanese tea ceremony is a beautiful tradition.",
+                        "ja": "日本の茶道は美しい伝統です。"
+                    },
+                    {
+                        "en": "There are many steps to follow.",
+                        "ja": "従うべき多くの手順があります。"
+                    },
+                    {
+                        "en": "The host prepares tea with great care.",
+                        "ja": "主人は細心の注意を払ってお茶を準備します。"
+                    },
+                    {
+                        "en": "The guests show respect to the host.",
+                        "ja": "客は主人に敬意を払います。"
+                    },
+                    {
+                        "en": "The room is quiet and peaceful.",
+                        "ja": "部屋は静かで穏やかです。"
+                    },
+                    {
+                        "en": "It is a time to relax and think.",
+                        "ja": "それはリラックスして考える時間です。"
+                    }
+                ]
+            },
+            "3": {
+                "title": "Understanding the Tea Ceremony",
+                "target_time": "2 min",
+                "vocabulary": [
+                    {
+                        "word": "Hospitality",
+                        "meaning": "おもてなし"
+                    },
+                    {
+                        "word": "Philosophy",
+                        "meaning": "哲学"
+                    }
+                ],
+                "grammar": "不定詞の副詞的用法と関係代名詞。",
+                "sentences": [
+                    {
+                        "en": "The tea ceremony, or 'chado', is a cultural practice that emphasizes harmony.",
+                        "ja": "茶道は、調和を強調する文化的な慣習です。"
+                    },
+                    {
+                        "en": "It is more than just drinking tea; it is a philosophy of life.",
+                        "ja": "それは単にお茶を飲むこと以上の、人生の哲学です。"
+                    },
+                    {
+                        "en": "Every movement is designed to create a sense of calm.",
+                        "ja": "すべての動作は、静寂の感覚を生み出すよう設計されています。"
+                    },
+                    {
+                        "en": "The host shows deep hospitality to every guest.",
+                        "ja": "主人はすべての客に対して深いおもてなしを示します。"
+                    },
+                    {
+                        "en": "Participants learn to appreciate the beauty of the current moment.",
+                        "ja": "参加者は、今という瞬間の美しさを感謝することを学びます。"
+                    },
+                    {
+                        "en": "This tradition has been passed down for centuries in Japan.",
+                        "ja": "この伝統は日本で何世紀にもわたって受け継がれてきました。"
+                    }
+                ]
+            },
+            "4": {
+                "title": "Cultural Significance of Chado",
+                "target_time": "2.5 min",
+                "vocabulary": [
+                    {
+                        "word": "Aesthetic",
+                        "meaning": "美学"
+                    },
+                    {
+                        "word": "Ritual",
+                        "meaning": "儀式"
+                    }
+                ],
+                "grammar": "受動態と分詞を用いた修飾。",
+                "sentences": [
+                    {
+                        "en": "The Japanese tea ceremony is a sophisticated ritual rooted in Zen Buddhism.",
+                        "ja": "日本の茶道は、禅仏教に根ざした洗練された儀式です。"
+                    },
+                    {
+                        "en": "It embodies an aesthetic of simplicity and mindfulness.",
+                        "ja": "それは簡素さとマインドフルネスという美学を体現しています。"
+                    },
+                    {
+                        "en": "Every utensil used in the ceremony is carefully selected to reflect the season.",
+                        "ja": "儀式で使用されるすべての道具は、季節を反映するように注意深く選ばれます。"
+                    },
+                    {
+                        "en": "The interaction between host and guest is governed by strict, yet graceful etiquette.",
+                        "ja": "主人と客の間の相互作用は、厳格ながらも優雅な作法によって統治されています。"
+                    },
+                    {
+                        "en": "This practice serves as a meditative escape from the chaos of daily life.",
+                        "ja": "この慣習は、日常生活の混沌からの瞑想的な逃避として機能します。"
+                    },
+                    {
+                        "en": "It remains a vital component of Japanese cultural identity today.",
+                        "ja": "それは今日でも日本文化のアイデンティティの重要な要素であり続けています。"
+                    }
+                ]
+            },
+            "5": {
+                "title": "The Philosophical Depth of the Tea Ceremony",
+                "target_time": "3 min",
+                "vocabulary": [
+                    {
+                        "word": "Ephemeral",
+                        "meaning": "儚い"
+                    },
+                    {
+                        "word": "Transience",
+                        "meaning": "無常"
+                    }
+                ],
+                "grammar": "仮定法、倒置、文学的修飾を用いた高度な構成。",
+                "sentences": [
+                    {
+                        "en": "Chado represents a profound synthesis of art, philosophy, and social ritual.",
+                        "ja": "茶道は、芸術、哲学、そして社会的儀式の深い統合を象徴しています。"
+                    },
+                    {
+                        "en": "At its core lies the recognition of transience, acknowledging the ephemeral nature of each encounter.",
+                        "ja": "その核心には無常の認識があり、一つ一つの出会いの儚い本質を認めています。"
+                    },
+                    {
+                        "en": "Were it not for this meditative focus, the ceremony would be merely a performance of etiquette.",
+                        "ja": "もしこの瞑想的な焦点がなければ、儀式は単なる作法のパフォーマンスに過ぎなかったでしょう。"
+                    },
+                    {
+                        "en": "Through the meticulous preparation of matcha, the practitioner achieves a state of spiritual clarity.",
+                        "ja": "抹茶の細心の準備を通じて、実践者は精神的な明晰さの状態に到達します。"
+                    },
+                    {
+                        "en": "Ultimately, the tea ceremony invites individuals to find tranquility within the constraints of tradition.",
+                        "ja": "最終的に、茶道は個人を、伝統という制約の中で静寂を見出すよう誘います。"
+                    }
+                ]
+            }
+        },
+        "id": "c596441f-8164-4587-bbd5-e2f1b444f9fd",
+        "date": "2026-05-12"
+    },
+    {
+        "genre": "Daily Life",
+        "topic": "The Benefits of Regular Exercise",
+        "levels": {
+            "1": {
+                "title": "Move Your Body",
+                "target_time": "1 min",
+                "vocabulary": [
+                    {
+                        "word": "Exercise",
+                        "meaning": "運動"
+                    },
+                    {
+                        "word": "Healthy",
+                        "meaning": "健康な"
+                    }
+                ],
+                "grammar": "命令形と簡単な形容詞。",
+                "sentences": [
+                    {
+                        "en": "Exercise is good for you.",
+                        "ja": "運動はあなたにとって良いことです。"
+                    },
+                    {
+                        "en": "Move your body every day.",
+                        "ja": "毎日体を動かしてください。"
+                    },
+                    {
+                        "en": "You will be healthy.",
+                        "ja": "あなたは健康になります。"
+                    },
+                    {
+                        "en": "Walk to school or work.",
+                        "ja": "学校や仕事まで歩いてください。"
+                    },
+                    {
+                        "en": "It makes you feel happy.",
+                        "ja": "それはあなたを幸せな気分にします。"
+                    }
+                ]
+            },
+            "2": {
+                "title": "Staying Fit and Active",
+                "target_time": "1.5 min",
+                "vocabulary": [
+                    {
+                        "word": "Energy",
+                        "meaning": "活力"
+                    },
+                    {
+                        "word": "Active",
+                        "meaning": "活動的な"
+                    }
+                ],
+                "grammar": "「should」と「because」を使った理由説明。",
+                "sentences": [
+                    {
+                        "en": "It is important to stay active.",
+                        "ja": "活動的でいることは重要です。"
+                    },
+                    {
+                        "en": "You should exercise because it is good for your health.",
+                        "ja": "健康に良いので、運動すべきです。"
+                    },
+                    {
+                        "en": "Regular exercise gives you more energy.",
+                        "ja": "定期的な運動はより多くの活力を与えてくれます。"
+                    },
+                    {
+                        "en": "You can try walking, running, or swimming.",
+                        "ja": "ウォーキング、ランニング、水泳を試すことができます。"
+                    },
+                    {
+                        "en": "Even thirty minutes a day is enough.",
+                        "ja": "1日30分で十分です。"
+                    },
+                    {
+                        "en": "Your body and mind will feel better.",
+                        "ja": "体も心もより良くなるでしょう。"
+                    }
+                ]
+            },
+            "3": {
+                "title": "The Advantages of Consistent Exercise",
+                "target_time": "2 min",
+                "vocabulary": [
+                    {
+                        "word": "Consistent",
+                        "meaning": "一貫した"
+                    },
+                    {
+                        "word": "Stress",
+                        "meaning": "ストレス"
+                    }
+                ],
+                "grammar": "関係代名詞と不定詞。",
+                "sentences": [
+                    {
+                        "en": "Consistent exercise is a key to maintaining a healthy lifestyle.",
+                        "ja": "継続的な運動は、健康的な生活習慣を維持するための鍵です。"
+                    },
+                    {
+                        "en": "Physical activity helps to reduce stress and improve your mood.",
+                        "ja": "身体活動はストレスを減らし、気分を改善するのに役立ちます。"
+                    },
+                    {
+                        "en": "When you work out, your body releases chemicals that make you feel good.",
+                        "ja": "運動すると、体は気分を良くする化学物質を放出します。"
+                    },
+                    {
+                        "en": "It also strengthens your muscles and improves your heart health.",
+                        "ja": "それはまた、筋肉を強化し、心臓の健康を改善します。"
+                    },
+                    {
+                        "en": "Finding an activity that you enjoy is the best way to start.",
+                        "ja": "楽しいと感じる活動を見つけることが、始めるための最良の方法です。"
+                    },
+                    {
+                        "en": "Make exercise a part of your daily routine.",
+                        "ja": "運動を毎日の日課の一部にしましょう。"
+                    }
+                ]
+            },
+            "4": {
+                "title": "Physiological and Psychological Benefits of Fitness",
+                "target_time": "2.5 min",
+                "vocabulary": [
+                    {
+                        "word": "Physiological",
+                        "meaning": "生理学的な"
+                    },
+                    {
+                        "word": "Endurance",
+                        "meaning": "持久力"
+                    }
+                ],
+                "grammar": "分詞構文と仮定法。",
+                "sentences": [
+                    {
+                        "en": "Engaging in regular physical activity provides extensive physiological and psychological benefits.",
+                        "ja": "定期的な身体活動に従事することは、広範な生理学的および心理的な恩恵をもたらします。"
+                    },
+                    {
+                        "en": "Beyond building physical endurance, exercise plays a crucial role in preventing chronic diseases.",
+                        "ja": "身体的な持久力を高めるだけでなく、運動は慢性疾患を予防する上で重要な役割を果たします。"
+                    },
+                    {
+                        "en": "Mental clarity and emotional stability are often enhanced through consistent workouts.",
+                        "ja": "精神的な明晰さと感情の安定は、継続的なトレーニングを通じてしばしば強化されます。"
+                    },
+                    {
+                        "en": "If individuals incorporate exercise into their schedules, they often report higher productivity levels.",
+                        "ja": "もし個人が運動をスケジュールに組み込めば、しばしば生産性が高まったと報告されます。"
+                    },
+                    {
+                        "en": "It is essential to balance intensity with adequate recovery time.",
+                        "ja": "運動強度と適切な回復時間のバランスを取ることが不可欠です。"
+                    },
+                    {
+                        "en": "A holistic approach to fitness ensures long-term well-being.",
+                        "ja": "健康への全体的なアプローチが、長期的な幸福を保証します。"
+                    }
+                ]
+            },
+            "5": {
+                "title": "Optimizing Human Performance through Exercise",
+                "target_time": "3 min",
+                "vocabulary": [
+                    {
+                        "word": "Holistic",
+                        "meaning": "全体的な"
+                    },
+                    {
+                        "word": "Endorphins",
+                        "meaning": "エンドルフィン"
+                    }
+                ],
+                "grammar": "倒置法、関係詞の非制限用法、高度な構文。",
+                "sentences": [
+                    {
+                        "en": "The optimization of human performance relies heavily upon the integration of regular physical exertion.",
+                        "ja": "人間のパフォーマンスの最適化は、定期的な肉体的鍛錬の統合に大きく依存しています。"
+                    },
+                    {
+                        "en": "Not only does exercise facilitate the release of endorphins, but it also modulates neuroplasticity.",
+                        "ja": "運動はエンドルフィンの放出を促進するだけでなく、神経可塑性をも調整します。"
+                    },
+                    {
+                        "en": "Were one to neglect this fundamental aspect of biology, the risk of metabolic and cognitive decline would increase exponentially.",
+                        "ja": "もし誰かが生物学のこの基本的な側面を無視すれば、代謝や認知機能の低下のリスクが指数関数的に増大するでしょう。"
+                    },
+                    {
+                        "en": "Therefore, cultivating a disciplined exercise regimen is paramount for maintaining systemic health.",
+                        "ja": "したがって、規律ある運動習慣を養うことは、全身の健康を維持するために極めて重要です。"
+                    },
+                    {
+                        "en": "Ultimately, the synergy between physical activity and mental fortitude defines the quality of one's longevity.",
+                        "ja": "結局のところ、身体活動と精神的強靭さの間の相乗効果が、個人の長寿の質を決定づけるのです。"
+                    }
+                ]
+            }
+        },
+        "id": "43ae1183-eae7-4196-92eb-4848b6f6bbeb",
+        "date": "2026-05-12"
+    },
+    {
         "genre": "Business",
         "topic": "The Shift to Remote Work",
         "levels": {
@@ -5143,1250 +6168,5 @@
         },
         "id": "74bc0065-7e0a-480c-a2c1-25cee59ec3ac",
         "date": "2026-05-07"
-    },
-    {
-        "genre": "Technology",
-        "topic": "Artificial Intelligence in Daily Life",
-        "levels": {
-            "1": {
-                "title": "AI in Our Lives",
-                "target_time": "1 min",
-                "vocabulary": [
-                    {
-                        "word": "smart",
-                        "meaning": "賢い、頭が良い、利口な"
-                    },
-                    {
-                        "word": "machine",
-                        "meaning": "機械、装置、器具"
-                    },
-                    {
-                        "word": "every day",
-                        "meaning": "毎日、日常的に"
-                    },
-                    {
-                        "word": "easy",
-                        "meaning": "簡単な、容易な、楽な"
-                    }
-                ],
-                "grammar": "このレベルでは、基本的なS+V+O（主語＋動詞＋目的語）の形を中心に構成されています。'It helps us'や'We use AI'のように、現在形を使って習慣や事実を述べる表現を学習します。助動詞 'can' を使った能力の表現も重要です。",
-                "sentences": [
-                    {
-                        "en": "AI is a smart machine.",
-                        "ja": "AIは賢い機械です。"
-                    },
-                    {
-                        "en": "It helps us every day.",
-                        "ja": "それは毎日私たちを助けてくれます。"
-                    },
-                    {
-                        "en": "We use AI on our phones.",
-                        "ja": "私たちはスマートフォンでAIを使います。"
-                    },
-                    {
-                        "en": "It can talk to us.",
-                        "ja": "それは私たちと話すことができます。"
-                    },
-                    {
-                        "en": "It makes our lives easy.",
-                        "ja": "それは私たちの生活を簡単にします。"
-                    }
-                ]
-            },
-            "2": {
-                "title": "How AI Helps Us",
-                "target_time": "2 min",
-                "vocabulary": [
-                    {
-                        "word": "technology",
-                        "meaning": "科学技術、テクノロジー、技術"
-                    },
-                    {
-                        "word": "useful",
-                        "meaning": "役に立つ、便利な、有用な"
-                    },
-                    {
-                        "word": "recommend",
-                        "meaning": "推薦する、勧める、紹介する"
-                    },
-                    {
-                        "word": "future",
-                        "meaning": "未来、将来、今後の"
-                    }
-                ],
-                "grammar": "現在進行形や、'when'を使った接続詞の文章が含まれます。また、'It is ... to' 構文（It is useful to use AI）など、日常会話で頻出する重要構文をカバーしています。'because' を用いた理由の説明も練習します。",
-                "sentences": [
-                    {
-                        "en": "AI technology is changing our world quickly.",
-                        "ja": "AI技術は私たちの世界を急速に変えています。"
-                    },
-                    {
-                        "en": "Many people use AI because it is very useful.",
-                        "ja": "多くの人が、AIは非常に便利なのでそれを利用しています。"
-                    },
-                    {
-                        "en": "For example, when you watch movies, AI recommends new ones to you.",
-                        "ja": "例えば、あなたが映画を見るとき、AIは新しい映画をあなたに薦めてくれます。"
-                    },
-                    {
-                        "en": "It also helps with maps and driving.",
-                        "ja": "それは地図や運転の助けにもなります。"
-                    },
-                    {
-                        "en": "In the future, AI will become even more important in our homes.",
-                        "ja": "将来、AIは私たちの家庭でさらに重要になるでしょう。"
-                    }
-                ]
-            },
-            "3": {
-                "title": "The Impact of Artificial Intelligence",
-                "target_time": "3 min",
-                "vocabulary": [
-                    {
-                        "word": "artificial",
-                        "meaning": "人工的な、模造の、不自然な"
-                    },
-                    {
-                        "word": "intelligence",
-                        "meaning": "知能、知性、理解力"
-                    },
-                    {
-                        "word": "efficiency",
-                        "meaning": "効率、能率、効率性"
-                    },
-                    {
-                        "word": "recognize",
-                        "meaning": "認識する、認める、見分ける"
-                    },
-                    {
-                        "word": "improve",
-                        "meaning": "改善する、向上させる、上達する"
-                    }
-                ],
-                "grammar": "現在完了形（has become）や受動態（is used）が登場します。また、'not only ... but also'（～だけでなく～も）といった、情報を付け加えるための少し複雑な相関接続詞の使用方法を学びます。",
-                "sentences": [
-                    {
-                        "en": "Artificial intelligence has become a part of our daily routines.",
-                        "ja": "人工知能は私たちの日常生活の一部となりました。"
-                    },
-                    {
-                        "en": "It is used in various fields, such as medicine and education, to improve efficiency.",
-                        "ja": "それは効率を高めるために、医療や教育などの様々な分野で使用されています。"
-                    },
-                    {
-                        "en": "AI can recognize human voices and faces with high accuracy.",
-                        "ja": "AIは人間の声や顔を高い精度で認識することができます。"
-                    },
-                    {
-                        "en": "Not only does it help with simple tasks, but it also solves complex problems.",
-                        "ja": "それは単純な作業を助けるだけでなく、複雑な問題も解決します。"
-                    },
-                    {
-                        "en": "However, we must think about how to use this power safely.",
-                        "ja": "しかし、私たちはこの力をいかに安全に使うかについて考えなければなりません。"
-                    }
-                ]
-            },
-            "4": {
-                "title": "The Evolution of AI Integration",
-                "target_time": "4 min",
-                "vocabulary": [
-                    {
-                        "word": "integration",
-                        "meaning": "統合、融合、組み込み"
-                    },
-                    {
-                        "word": "algorithm",
-                        "meaning": "アルゴリズム、計算手順、解法"
-                    },
-                    {
-                        "word": "unprecedented",
-                        "meaning": "前例のない、かつてない、空前の"
-                    },
-                    {
-                        "word": "ethical",
-                        "meaning": "倫理的な、道徳上の、倫理にかなった"
-                    },
-                    {
-                        "word": "transform",
-                        "meaning": "変える、変貌させる、変換する"
-                    }
-                ],
-                "grammar": "分詞構文や関係代名詞の非制限用法など、アカデミックな文章で使われる構造が含まれます。また、'despite' や 'whereas' などの対比を示す接続詞を使い、論理的な文章構成を構築する練習になります。",
-                "sentences": [
-                    {
-                        "en": "The rapid integration of AI into society has brought about unprecedented changes in how we interact with technology.",
-                        "ja": "AIの社会への急速な統合は、私たちがテクノロジーと対話する方法に前例のない変化をもたらしました。"
-                    },
-                    {
-                        "en": "Sophisticated algorithms now analyze vast amounts of data to predict consumer behavior and optimize industrial processes.",
-                        "ja": "洗練されたアルゴリズムが現在、膨大なデータを分析して消費者行動を予測し、産業プロセスを最適化しています。"
-                    },
-                    {
-                        "en": "While these advancements significantly boost productivity, they also raise serious ethical concerns regarding data privacy.",
-                        "ja": "これらの進歩は生産性を大幅に向上させる一方で、データのプライバシーに関する深刻な倫理的懸念も引き起こしています。"
-                    },
-                    {
-                        "en": "Experts argue that we need a robust framework to ensure that AI development remains human-centric.",
-                        "ja": "専門家は、AIの開発が人間中心であり続けることを保証するために、強固な枠組みが必要だと主張しています。"
-                    },
-                    {
-                        "en": "Ultimately, AI is transforming the workforce, requiring individuals to adapt to a new digital landscape.",
-                        "ja": "最終的に、AIは労働力を変容させており、個人は新しいデジタル環境に適応することを求められています。"
-                    }
-                ]
-            },
-            "5": {
-                "title": "The Paradigm Shift: AI and the Future of Autonomy",
-                "target_time": "5 min",
-                "vocabulary": [
-                    {
-                        "word": "paradigm shift",
-                        "meaning": "パラダイムシフト、理論的枠組みの劇的変化"
-                    },
-                    {
-                        "word": "autonomy",
-                        "meaning": "自律、自主性、自治権"
-                    },
-                    {
-                        "word": "permeate",
-                        "meaning": "浸透する、染み渡る、充満する"
-                    },
-                    {
-                        "word": "ubiquitous",
-                        "meaning": "至る所にある、遍在する、偏在する"
-                    },
-                    {
-                        "word": "socio-economic",
-                        "meaning": "社会経済的な、社会経済上の"
-                    },
-                    {
-                        "word": "implication",
-                        "meaning": "影響、含意、暗示"
-                    }
-                ],
-                "grammar": "仮定法過去完了や、倒置、強調構文などの高度な文法を駆使しています。抽象的な名詞句を主語に置く「無生物主語」の構文が多く、論説文としての格調高い文体となっています。文と文の論理的つながりを意識した副詞の使い方も特徴的です。",
-                "sentences": [
-                    {
-                        "en": "Artificial Intelligence, once a mere figment of science fiction, has now permeated every facet of contemporary existence, signaling a profound paradigm shift.",
-                        "ja": "かつては単なるSFの空想に過ぎなかった人工知能は、今や現代生活のあらゆる側面に浸透し、深いパラダイムシフトを告げています。"
-                    },
-                    {
-                        "en": "The ubiquitous nature of neural networks allows for real-time decision-making processes that often surpass human cognitive capabilities in speed and scale.",
-                        "ja": "神経回路網（ニューラルネットワーク）の遍在的な性質により、速度と規模の両面で人間の認知能力をしばしば凌駕するリアルタイムの意思決定プロセスが可能になっています。"
-                    },
-                    {
-                        "en": "Consequently, this technological hegemony invites a critical re-evaluation of human autonomy and the socio-economic implications of automated governance.",
-                        "ja": "その結果、この技術的覇権は、人間の自律性や自動化されたガバナンスがもたらす社会経済的な影響についての批判的な再評価を促しています。"
-                    },
-                    {
-                        "en": "Had we not embraced these digital innovations, the global economy might have stagnated; yet, the reliance on black-box algorithms remains a contentious issue.",
-                        "ja": "もし私たちがこれらのデジタル・イノベーションを受け入れていなければ、世界経済は停滞していたかもしれませんが、ブラックボックス化したアルゴリズムへの依存は依然として論争の的となる問題です。"
-                    },
-                    {
-                        "en": "As we stand on the precipice of the singularity, the challenge lies in harmonizing machine efficiency with the intrinsic values of human dignity and creative intuition.",
-                        "ja": "私たちがシンギュラリティ（技術的特異点）の瀬戸際に立つ中で、課題は機械の効率性と、人間の尊厳や創造的な直感という本質的な価値をいかに調和させるかにあります。"
-                    }
-                ]
-            }
-        },
-        "id": "9fb68d71-fd20-4045-90b7-51c5669c03a4",
-        "date": "2026-05-06"
-    },
-    {
-        "genre": "Culture",
-        "topic": "The Japanese Tea Ceremony",
-        "levels": {
-            "1": {
-                "title": "Japanese Tea",
-                "target_time": "1 min",
-                "vocabulary": [
-                    {
-                        "word": "ceremony",
-                        "meaning": "儀式、式典、作法"
-                    },
-                    {
-                        "word": "special",
-                        "meaning": "特別な、独特の、専門の"
-                    },
-                    {
-                        "word": "quiet",
-                        "meaning": "静かな、穏やかな、落ち着いた"
-                    },
-                    {
-                        "word": "together",
-                        "meaning": "一緒に、共に、同時に"
-                    }
-                ],
-                "grammar": "基本的な現在形と、'there is/are' 構文、そして 'enjoy' + 動名詞（～することを楽しむ）のような基礎的な動詞の使い方を学びます。形容詞を使って名詞を修飾するシンプルな形が中心です。",
-                "sentences": [
-                    {
-                        "en": "The tea ceremony is a special Japanese tradition.",
-                        "ja": "茶道は日本の特別な伝統です。"
-                    },
-                    {
-                        "en": "People drink green tea in a quiet room.",
-                        "ja": "人々は静かな部屋で抹茶を飲みます。"
-                    },
-                    {
-                        "en": "There are many rules for making tea.",
-                        "ja": "お茶を点てるためのルールがたくさんあります。"
-                    },
-                    {
-                        "en": "Everyone is polite and kind.",
-                        "ja": "誰もが礼儀正しく親切です。"
-                    },
-                    {
-                        "en": "They enjoy drinking tea together.",
-                        "ja": "彼らは一緒にお茶を飲むことを楽しみます。"
-                    }
-                ]
-            },
-            "2": {
-                "title": "The Way of Tea",
-                "target_time": "2 min",
-                "vocabulary": [
-                    {
-                        "word": "tradition",
-                        "meaning": "伝統、慣習、伝説"
-                    },
-                    {
-                        "word": "powder",
-                        "meaning": "粉、粉末、パウダー"
-                    },
-                    {
-                        "word": "important",
-                        "meaning": "重要な、大切、重大な"
-                    },
-                    {
-                        "word": "manner",
-                        "meaning": "マナー、行儀、やり方"
-                    }
-                ],
-                "grammar": "受動態（is called）や、目的を表す不定詞（to show respect）が登場します。また、順序を表す副詞（First, Next, Finally）を使って、手順を説明する構成を学びます。",
-                "sentences": [
-                    {
-                        "en": "The Japanese tea ceremony is called 'Sado'.",
-                        "ja": "日本の茶道は「茶道（さどう）」と呼ばれます。"
-                    },
-                    {
-                        "en": "It uses a special green tea powder called matcha.",
-                        "ja": "それは抹茶と呼ばれる特別な緑茶の粉を使います。"
-                    },
-                    {
-                        "en": "First, the host cleans the tea tools carefully.",
-                        "ja": "まず、亭主（ホスト）は茶道具を丁寧に清めます。"
-                    },
-                    {
-                        "en": "Next, they make the tea and serve it to the guests.",
-                        "ja": "次に、彼らはお茶を点てて客に出します。"
-                    },
-                    {
-                        "en": "The guests follow rules to show respect to the host.",
-                        "ja": "客は亭主に敬意を示すためにルールに従います。"
-                    }
-                ]
-            },
-            "3": {
-                "title": "Zen and the Tea Ceremony",
-                "target_time": "3 min",
-                "vocabulary": [
-                    {
-                        "word": "philosophy",
-                        "meaning": "哲学、考え方、理念"
-                    },
-                    {
-                        "word": "peaceful",
-                        "meaning": "平和な、穏やかな、安らかな"
-                    },
-                    {
-                        "word": "experience",
-                        "meaning": "経験、体験、熟練"
-                    },
-                    {
-                        "word": "meaning",
-                        "meaning": "意味、意義、意図"
-                    },
-                    {
-                        "word": "spirit",
-                        "meaning": "精神、心、魂"
-                    }
-                ],
-                "grammar": "現在分詞による後置修飾（tea made from...）や、'not just ... but also' の応用、関係代名詞 'which' を使った補足説明を学習します。精神的な概念を説明するための抽象名詞が増えます。",
-                "sentences": [
-                    {
-                        "en": "The tea ceremony is not just about drinking tea, but also about finding peace.",
-                        "ja": "茶道は単にお茶を飲むことだけでなく、平和を見つけることでもあります。"
-                    },
-                    {
-                        "en": "It is based on Zen philosophy, which values a quiet spirit.",
-                        "ja": "それは静かな精神を重んじる禅の哲学に基づいています。"
-                    },
-                    {
-                        "en": "The phrase 'Ichigo Ichie' means that every meeting is a unique experience.",
-                        "ja": "「一期一会」という言葉は、すべての出会いが唯一無二の体験であることを意味します。"
-                    },
-                    {
-                        "en": "People spend time in a simple room to escape their busy lives.",
-                        "ja": "人々は忙しい生活から逃れるために、シンプルな部屋で時間を過ごします。"
-                    },
-                    {
-                        "en": "By focusing on the tea, they can feel a deep connection with nature.",
-                        "ja": "お茶に集中することで、自然との深い繋がりを感じることができます。"
-                    }
-                ]
-            },
-            "4": {
-                "title": "The Aesthetic Principles of Sado",
-                "target_time": "4 min",
-                "vocabulary": [
-                    {
-                        "word": "aesthetic",
-                        "meaning": "美的な、美学の、審美的な"
-                    },
-                    {
-                        "word": "simplicity",
-                        "meaning": "単純、簡素、素朴"
-                    },
-                    {
-                        "word": "imperfection",
-                        "meaning": "不完全、欠点、不備"
-                    },
-                    {
-                        "word": "appreciation",
-                        "meaning": "鑑賞、感謝、評価"
-                    },
-                    {
-                        "word": "hospitality",
-                        "meaning": "おもてなし、厚遇、歓待"
-                    }
-                ],
-                "grammar": "名詞節（the concept that...）や、強調の助動詞、完了動名詞などの高度な構造が含まれます。論理的な接続詞（Furthermore, Consequently）を使用して、文化的な背景を深く解説します。",
-                "sentences": [
-                    {
-                        "en": "The aesthetic of the tea ceremony is deeply rooted in 'Wabi-sabi', the appreciation of simplicity and imperfection.",
-                        "ja": "茶道の美学は、簡素さと不完全さを愛でる「わび・さび」に深く根ざしています。"
-                    },
-                    {
-                        "en": "Every movement of the host is a choreographed ritual designed to create a sense of harmony.",
-                        "ja": "亭主のあらゆる動きは、調和の感覚を生み出すために設計された、振り付けられた儀式です。"
-                    },
-                    {
-                        "en": "Furthermore, the utensils used in the ceremony are often historical artifacts with significant artistic value.",
-                        "ja": "さらに、儀式で使用される道具は、しばしば重要な芸術的価値を持つ歴史的な工芸品です。"
-                    },
-                    {
-                        "en": "The interaction between the host and guest represents the highest form of Japanese hospitality, or 'Omotenashi'.",
-                        "ja": "亭主と客のやり取りは、日本のおもてなしの最高形式を表しています。"
-                    },
-                    {
-                        "en": "By observing these strict protocols, participants achieve a meditative state of mindfulness.",
-                        "ja": "これらの厳格なプロトコルを守ることにより、参加者はマインドフルネスという瞑想的な状態に達します。"
-                    }
-                ]
-            },
-            "5": {
-                "title": "Chado: A Ritualized Path to Spiritual Tranquility",
-                "target_time": "5 min",
-                "vocabulary": [
-                    {
-                        "word": "tranquility",
-                        "meaning": "静寂、平穏、安らぎ"
-                    },
-                    {
-                        "word": "meticulous",
-                        "meaning": "細心の、綿密な、非常に注意深い"
-                    },
-                    {
-                        "word": "ephemeral",
-                        "meaning": "はかない、短命な、つかの間の"
-                    },
-                    {
-                        "word": "transcend",
-                        "meaning": "超越する、凌駕する、超える"
-                    },
-                    {
-                        "word": "choreography",
-                        "meaning": "振り付け、構成、緻密な計画"
-                    },
-                    {
-                        "word": "manifestation",
-                        "meaning": "現れ、明示、表現"
-                    }
-                ],
-                "grammar": "仮定法、倒置、二重否定、あるいは高度な語彙によるメタファーなど、文学的な表現を多用しています。文構造が複雑で、一文の中に複数の修飾節が含まれるため、精読の練習に最適です。",
-                "sentences": [
-                    {
-                        "en": "Chado, the Way of Tea, serves as a meticulous manifestation of Japanese spiritual history and aesthetic sensibility.",
-                        "ja": "茶の湯、すなわち茶道は、日本の精神史と美的感性の細緻な現れとして機能しています。"
-                    },
-                    {
-                        "en": "The ritual transcends the mere act of beverage preparation, evolving into a sophisticated performance of mindfulness and mutual respect.",
-                        "ja": "この儀式は、単なる飲料の準備という行為を超越し、マインドフルネスと相互尊重の洗練されたパフォーマンスへと進化しています。"
-                    },
-                    {
-                        "en": "Central to this practice is the concept of 'Ichigo Ichie', reminding participants that each ephemeral moment is unrepeatable and sacred.",
-                        "ja": "この実践の中心にあるのは「一期一会」の概念であり、参加者に対して、それぞれのはかない瞬間は繰り返すことができず、神聖なものであることを思い出させます。"
-                    },
-                    {
-                        "en": "The intentional rusticity of the tea room, or 'Chashitsu', provides a sanctuary where social hierarchies are momentarily dissolved.",
-                        "ja": "茶室の意図的な素朴さは、社会的な階層が一時的に解消される聖域を提供します。"
-                    },
-                    {
-                        "en": "In an era of relentless digital stimulation, the silent choreography of the tea ceremony offers a profound counter-narrative of stillness.",
-                        "ja": "絶え間ないデジタル刺激の時代において、茶道の静かな振り付けは、静寂という深い対抗言説（カウンターナラティブ）を提示しています。"
-                    }
-                ]
-            }
-        },
-        "id": "f76dc2e6-7852-4040-acde-32db2a71d894",
-        "date": "2026-05-06"
-    },
-    {
-        "genre": "Business",
-        "topic": "The Shift to Remote Work",
-        "levels": {
-            "1": {
-                "title": "Working from Home",
-                "target_time": "1 min",
-                "vocabulary": [
-                    {
-                        "word": "work",
-                        "meaning": "働く、仕事、作業"
-                    },
-                    {
-                        "word": "office",
-                        "meaning": "オフィス、事務所、会社"
-                    },
-                    {
-                        "word": "home",
-                        "meaning": "家、自宅、家庭"
-                    },
-                    {
-                        "word": "meeting",
-                        "meaning": "会議、打ち合わせ、集まり"
-                    }
-                ],
-                "grammar": "現在形と現在進行形を使い、現在の状況を説明します。'can' を使って可能なことを示し、'but' で対照的な事実を繋ぐシンプルな構造です。",
-                "sentences": [
-                    {
-                        "en": "Many people work from home now.",
-                        "ja": "今、多くの人が自宅で働いています。"
-                    },
-                    {
-                        "en": "They do not go to the office every day.",
-                        "ja": "彼らは毎日オフィスに行くわけではありません。"
-                    },
-                    {
-                        "en": "They use computers for work.",
-                        "ja": "彼らは仕事にコンピュータを使います。"
-                    },
-                    {
-                        "en": "They have meetings on the internet.",
-                        "ja": "彼らはインターネットで会議をします。"
-                    },
-                    {
-                        "en": "It is a new way to work, but it is good.",
-                        "ja": "それは新しい働き方ですが、良いものです。"
-                    }
-                ]
-            },
-            "2": {
-                "title": "The Rise of Remote Work",
-                "target_time": "2 min",
-                "vocabulary": [
-                    {
-                        "word": "remote",
-                        "meaning": "遠隔の、遠い、人里離れた"
-                    },
-                    {
-                        "word": "flexible",
-                        "meaning": "柔軟な、融通の利く、しなやかな"
-                    },
-                    {
-                        "word": "commute",
-                        "meaning": "通勤する、通学する"
-                    },
-                    {
-                        "word": "save",
-                        "meaning": "節約する、救う、保存する"
-                    }
-                ],
-                "grammar": "比較級（more flexible）や、動名詞の主語（Working from home...）を学習します。また、'because' を使って理由を詳しく説明する文が含まれます。",
-                "sentences": [
-                    {
-                        "en": "Remote work is becoming very popular in many countries.",
-                        "ja": "リモートワークは多くの国で非常に一般的になりつつあります。"
-                    },
-                    {
-                        "en": "Working from home is more flexible than working in an office.",
-                        "ja": "自宅で働くことは、オフィスで働くよりも柔軟です。"
-                    },
-                    {
-                        "en": "People can save time because they do not have to commute.",
-                        "ja": "通勤する必要がないため、人々は時間を節約できます。"
-                    },
-                    {
-                        "en": "However, they need a good internet connection to stay busy.",
-                        "ja": "しかし、忙しく働き続けるためには、良好なインターネット接続が必要です。"
-                    },
-                    {
-                        "en": "Companies are learning how to manage teams from a distance.",
-                        "ja": "企業は、遠くからチームを管理する方法を学んでいます。"
-                    }
-                ]
-            },
-            "3": {
-                "title": "The Benefits and Challenges of Telecommuting",
-                "target_time": "3 min",
-                "vocabulary": [
-                    {
-                        "word": "telecommuting",
-                        "meaning": "在宅勤務、テレワーク"
-                    },
-                    {
-                        "word": "productivity",
-                        "meaning": "生産性、多産"
-                    },
-                    {
-                        "word": "balance",
-                        "meaning": "バランス、均衡、調和"
-                    },
-                    {
-                        "word": "challenge",
-                        "meaning": "課題、挑戦、難問"
-                    },
-                    {
-                        "word": "communication",
-                        "meaning": "コミュニケーション、伝達、意思疎通"
-                    }
-                ],
-                "grammar": "現在完了進行形（have been changing）や、'while' を使った譲歩・対比の表現が登場します。また、'allow A to B'（AがBするのを許可する・可能にする）という重要語法を学びます。",
-                "sentences": [
-                    {
-                        "en": "Digital technologies have been changing the way businesses operate for years.",
-                        "ja": "デジタル技術は長年、企業の運営方法を変え続けてきました。"
-                    },
-                    {
-                        "en": "Telecommuting allows employees to balance their work and private lives better.",
-                        "ja": "在宅勤務は、従業員が仕事と私生活をより良くバランスさせることを可能にします。"
-                    },
-                    {
-                        "en": "While productivity can increase, some workers feel lonely without their colleagues.",
-                        "ja": "生産性が向上する一方で、同僚がいないと孤独を感じる労働者もいます。"
-                    },
-                    {
-                        "en": "Effective communication is the biggest challenge for remote teams.",
-                        "ja": "効果的なコミュニケーションは、リモートチームにとって最大の課題です。"
-                    },
-                    {
-                        "en": "As a result, many companies are now using a 'hybrid' model.",
-                        "ja": "その結果、多くの企業が現在「ハイブリッド」モデルを採用しています。"
-                    }
-                ]
-            },
-            "4": {
-                "title": "The Corporate Paradigm Shift to Digital Nomadism",
-                "target_time": "4 min",
-                "vocabulary": [
-                    {
-                        "word": "corporate",
-                        "meaning": "企業の、法人の、団体の"
-                    },
-                    {
-                        "word": "nomadism",
-                        "meaning": "放浪、遊牧、ノマド生活"
-                    },
-                    {
-                        "word": "infrastructure",
-                        "meaning": "インフラ、基盤、下部構造"
-                    },
-                    {
-                        "word": "collaboration",
-                        "meaning": "協力、共同作業、コラボレーション"
-                    },
-                    {
-                        "word": "geographic",
-                        "meaning": "地理的な、地理学上の"
-                    }
-                ],
-                "grammar": "複合名詞や、'not only ... but also' の倒置、あるいは仮定法を用いた提案などが含まれます。ビジネス用語が多く使われ、論理的で説得力のある文章構成になっています。",
-                "sentences": [
-                    {
-                        "en": "The global workforce is undergoing a significant transformation as digital nomadism becomes a corporate reality.",
-                        "ja": "デジタルノマディズムが企業の現実となるにつれ、世界の労働力は大きな変貌を遂げています。"
-                    },
-                    {
-                        "en": "Advanced digital infrastructure has eliminated the need for physical presence in a traditional office setting.",
-                        "ja": "高度なデジタルインフラにより、従来のオフィス環境に物理的に存在する必要がなくなりました。"
-                    },
-                    {
-                        "en": "Consequently, companies can now recruit top talent regardless of their geographic location.",
-                        "ja": "その結果、企業は地理的な場所に関係なく、優秀な人材を採用できるようになりました。"
-                    },
-                    {
-                        "en": "However, maintaining a strong company culture and fostering collaboration remains a complex hurdle.",
-                        "ja": "しかし、強い企業文化を維持し、コラボレーションを促進することは、依然として複雑なハードルです。"
-                    },
-                    {
-                        "en": "Organizations must invest in sophisticated software to bridge the gap between remote and in-office staff.",
-                        "ja": "組織は、リモートスタッフとオフィス勤務スタッフの間の溝を埋めるために、洗練されたソフトウェアに投資しなければなりません。"
-                    }
-                ]
-            },
-            "5": {
-                "title": "Decentralized Labor: Reimagining the Global Workforce",
-                "target_time": "5 min",
-                "vocabulary": [
-                    {
-                        "word": "decentralized",
-                        "meaning": "分散型の、地方分権の"
-                    },
-                    {
-                        "word": "reimagine",
-                        "meaning": "再考する、捉え直す、再想像する"
-                    },
-                    {
-                        "word": "asynchronous",
-                        "meaning": "非同期の、同時に起きない"
-                    },
-                    {
-                        "word": "isolation",
-                        "meaning": "孤立、分離、絶交"
-                    },
-                    {
-                        "word": "mitigate",
-                        "meaning": "和らげる、軽減する、緩和する"
-                    },
-                    {
-                        "word": "synergy",
-                        "meaning": "相乗効果、シナジー"
-                    }
-                ],
-                "grammar": "名詞化（nominalization）や複雑な修飾関係、抽象度の高い語彙の選択が特徴です。接続副詞（Nonetheless, Paradoxically）を効果的に使い、多角的な視点からビジネスの変遷を論じています。",
-                "sentences": [
-                    {
-                        "en": "The decentralization of labor represents a fundamental reimagining of the global workforce, driven by technological ubiquity.",
-                        "ja": "労働の分散化は、テクノロジーの遍在によって推進される、グローバルな労働力の根本的な再考を表しています。"
-                    },
-                    {
-                        "en": "Asynchronous communication tools have decoupled productivity from the rigid constraints of the nine-to-five schedule.",
-                        "ja": "非同期コミュニケーションツールは、生産性を「9時から5時」という硬直したスケジュールの制約から切り離しました。"
-                    },
-                    {
-                        "en": "Paradoxically, while remote work offers unparalleled autonomy, it also risks professional isolation and the erosion of spontaneous synergy.",
-                        "ja": "逆説的に、リモートワークは比類のない自律性を提供する一方で、職業的な孤立や、自発的な相乗効果の衰退を招くリスクもあります。"
-                    },
-                    {
-                        "en": "Leadership must now pivot toward outcome-based performance metrics rather than mere visibility in the workspace.",
-                        "ja": "リーダーシップは現在、単なる職場での視認性ではなく、成果に基づいたパフォーマンス指標へと軸足を移さなければなりません。"
-                    },
-                    {
-                        "en": "To mitigate these risks, strategic investments in virtual team-building and mental health support are becoming indispensable components of modern management.",
-                        "ja": "これらのリスクを軽減するために、バーチャルなチームビルディングやメンタルヘルス支援への戦略的な投資が、現代のマネジメントにおいて不可欠な要素となっています。"
-                    }
-                ]
-            }
-        },
-        "id": "3c3df9c4-912d-4eb6-805a-2368bbf5227a",
-        "date": "2026-05-06"
-    },
-    {
-        "genre": "Science",
-        "topic": "The Process of Photosynthesis",
-        "levels": {
-            "1": {
-                "title": "How Plants Eat",
-                "target_time": "1 min",
-                "vocabulary": [
-                    {
-                        "word": "plant",
-                        "meaning": "植物、草木、工場"
-                    },
-                    {
-                        "word": "sunlight",
-                        "meaning": "日光、太陽の光"
-                    },
-                    {
-                        "word": "leaf",
-                        "meaning": "葉、木の葉"
-                    },
-                    {
-                        "word": "grow",
-                        "meaning": "成長する、育つ、育てる"
-                    }
-                ],
-                "grammar": "単純現在形を使って、自然の法則や事実を述べます。'need' や 'use' といった基本的な動詞を使い、'to' + 動詞（～するために）で目的を表現します。",
-                "sentences": [
-                    {
-                        "en": "Plants need sunlight, water, and air.",
-                        "ja": "植物には日光、水、そして空気が必要です。"
-                    },
-                    {
-                        "en": "They use these things to make food.",
-                        "ja": "彼らはこれらを使って食べ物を作ります。"
-                    },
-                    {
-                        "en": "This process happens in their leaves.",
-                        "ja": "このプロセスは彼らの葉の中で起こります。"
-                    },
-                    {
-                        "en": "It helps the plants grow big.",
-                        "ja": "それは植物が大きく育つのを助けます。"
-                    },
-                    {
-                        "en": "Plants give us clean air to breathe.",
-                        "ja": "植物は私たちに、吸うためのきれいな空気を与えてくれます。"
-                    }
-                ]
-            },
-            "2": {
-                "title": "The Power of Sunlight",
-                "target_time": "2 min",
-                "vocabulary": [
-                    {
-                        "word": "energy",
-                        "meaning": "エネルギー、活力、精力"
-                    },
-                    {
-                        "word": "oxygen",
-                        "meaning": "酸素"
-                    },
-                    {
-                        "word": "process",
-                        "meaning": "過程、工程、プロセス"
-                    },
-                    {
-                        "word": "carbon dioxide",
-                        "meaning": "二酸化炭素"
-                    }
-                ],
-                "grammar": "関係代名詞 'that' や 'which' の初歩的な使い方、受動態、そして 'called'（～と呼ばれる）という過去分詞の形容詞的用法を学びます。",
-                "sentences": [
-                    {
-                        "en": "Photosynthesis is the process that plants use to make food.",
-                        "ja": "光合成は、植物が食べ物を作るために使うプロセスです。"
-                    },
-                    {
-                        "en": "They take in a gas called carbon dioxide from the air.",
-                        "ja": "彼らは空気中から二酸化炭素と呼ばれるガスを取り込みます。"
-                    },
-                    {
-                        "en": "Using energy from sunlight, they change water and gas into sugar.",
-                        "ja": "日光からのエネルギーを使って、彼らは水とガスを糖に変えます。"
-                    },
-                    {
-                        "en": "This sugar gives the plant energy to live.",
-                        "ja": "この糖は植物に生きるためのエネルギーを与えます。"
-                    },
-                    {
-                        "en": "During this process, plants also release oxygen for us.",
-                        "ja": "このプロセスの間、植物は私たちのために酸素も放出します。"
-                    }
-                ]
-            },
-            "3": {
-                "title": "Chlorophyll and Chemical Reactions",
-                "target_time": "3 min",
-                "vocabulary": [
-                    {
-                        "word": "chemical",
-                        "meaning": "化学的な、化学の、薬品"
-                    },
-                    {
-                        "word": "reaction",
-                        "meaning": "反応、反動、応対"
-                    },
-                    {
-                        "word": "chlorophyll",
-                        "meaning": "葉緑素、クロロフィル"
-                    },
-                    {
-                        "word": "absorb",
-                        "meaning": "吸収する、吸い上げる、夢中にさせる"
-                    },
-                    {
-                        "word": "convert",
-                        "meaning": "変換する、変える、転換する"
-                    }
-                ],
-                "grammar": "分詞（Using, absorbing）を用いた付帯状況の表現や、'by' + 動名詞（～することによって）という手段の表現を多用します。科学的な因果関係を説明する文構造を学びます。",
-                "sentences": [
-                    {
-                        "en": "Photosynthesis is a complex chemical reaction occurring inside plant cells.",
-                        "ja": "光合成は、植物の細胞内で起こる複雑な化学反応です。"
-                    },
-                    {
-                        "en": "Leaves contain a green pigment called chlorophyll.",
-                        "ja": "葉にはクロロフィルと呼ばれる緑色の色素が含まれています。"
-                    },
-                    {
-                        "en": "Chlorophyll absorbs sunlight, providing the energy needed for the reaction.",
-                        "ja": "クロロフィルは日光を吸収し、反応に必要なエネルギーを提供します。"
-                    },
-                    {
-                        "en": "By converting solar energy into chemical energy, plants produce glucose.",
-                        "ja": "太陽エネルギーを化学エネルギーに変換することで、植物はブドウ糖を生成します。"
-                    },
-                    {
-                        "en": "Without this process, most life on Earth would not exist.",
-                        "ja": "このプロセスがなければ、地球上のほとんどの生命は存在しないでしょう。"
-                    }
-                ]
-            },
-            "4": {
-                "title": "The Mechanism of Carbon Sequestration",
-                "target_time": "4 min",
-                "vocabulary": [
-                    {
-                        "word": "mechanism",
-                        "meaning": "仕組み、メカニズム、機構"
-                    },
-                    {
-                        "word": "sequestration",
-                        "meaning": "隔離、分離、没収"
-                    },
-                    {
-                        "word": "glucose",
-                        "meaning": "ブドウ糖、グルコース"
-                    },
-                    {
-                        "word": "byproduct",
-                        "meaning": "副産物、副次的結果"
-                    },
-                    {
-                        "word": "ecosystem",
-                        "meaning": "生態系、エコシステム"
-                    }
-                ],
-                "grammar": "関係副詞 'where' や、'not only ... but also'、さらに 'essential for ...ing' などの表現を使い、科学的プロセスを詳細に記述します。論理の飛躍がないように接続詞を使いこなします。",
-                "sentences": [
-                    {
-                        "en": "Photosynthesis serves as the primary mechanism for carbon sequestration in our global ecosystem.",
-                        "ja": "光合成は、地球の生態系における炭素隔離の主要なメカニズムとして機能しています。"
-                    },
-                    {
-                        "en": "During the light-dependent reactions, plants capture photons to generate ATP and NADPH.",
-                        "ja": "光依存型反応の間、植物は光子を捕らえてATPとNADPHを生成します。"
-                    },
-                    {
-                        "en": "These molecules are then used in the Calvin cycle to transform carbon dioxide into glucose.",
-                        "ja": "これらの分子はその後、カルビン回路で使用され、二酸化炭素をブドウ糖に変換します。"
-                    },
-                    {
-                        "en": "Oxygen is released as a vital byproduct, sustaining the respiratory needs of aerobic organisms.",
-                        "ja": "酸素は不可欠な副産物として放出され、好気性生物の呼吸の必要性を支えています。"
-                    },
-                    {
-                        "en": "Understanding this intricate balance is essential for addressing climate change and food security.",
-                        "ja": "この複雑なバランスを理解することは、気候変動や食料安全保障に対処するために不可欠です。"
-                    }
-                ]
-            },
-            "5": {
-                "title": "Bioenergetics: The Foundations of Terrestrial Life",
-                "target_time": "5 min",
-                "vocabulary": [
-                    {
-                        "word": "bioenergetics",
-                        "meaning": "生体エネルギー論"
-                    },
-                    {
-                        "word": "terrestrial",
-                        "meaning": "陸上の、地球の、陸生の"
-                    },
-                    {
-                        "word": "photochemical",
-                        "meaning": "光化学的な"
-                    },
-                    {
-                        "word": "synthesize",
-                        "meaning": "合成する、統合する"
-                    },
-                    {
-                        "word": "catalyst",
-                        "meaning": "触媒、きっかけ、促進させるもの"
-                    },
-                    {
-                        "word": "biosphere",
-                        "meaning": "生物圏"
-                    }
-                ],
-                "grammar": "専門用語を多用した複雑な名詞句、倒置、同格のカンマ、高度な仮定法など、科学論文に近い文体です。抽象的な概念を正確に記述するための、緻密な文構造が要求されます。",
-                "sentences": [
-                    {
-                        "en": "Photosynthesis is the fundamental bioenergetic pathway that underpins the vast majority of terrestrial life forms.",
-                        "ja": "光合成は、陸上生命体の大部分を支える根本的な生体エネルギー経路です。"
-                    },
-                    {
-                        "en": "At its core, it involves a series of sophisticated photochemical reactions that synthesize organic compounds from inorganic precursors.",
-                        "ja": "その核心において、無機前駆体から有機化合物を合成する一連の洗練された光化学反応が関わっています。"
-                    },
-                    {
-                        "en": "The efficiency of this process is governed by various environmental catalysts, including light intensity and atmospheric composition.",
-                        "ja": "このプロセスの効率は、光の強度や大気組成を含む様々な環境触媒によって支配されています。"
-                    },
-                    {
-                        "en": "Should the delicate equilibrium of the biosphere be disrupted, the photosynthetic capacity of forests could be severely compromised.",
-                        "ja": "生物圏の繊細な平衡が崩れれば、森林の光合成能力が深刻に損なわれる可能性があります。"
-                    },
-                    {
-                        "en": "Thus, the study of chloroplast dynamics remains a critical frontier in our quest to engineer sustainable agricultural solutions.",
-                        "ja": "したがって、葉緑体のダイナミクスの研究は、持続可能な農業ソリューションを設計するための探求における重要なフロンティアであり続けています。"
-                    }
-                ]
-            }
-        },
-        "id": "67dd100f-99cb-4907-9350-24eca627fe66",
-        "date": "2026-05-06"
-    },
-    {
-        "genre": "Daily Life",
-        "topic": "The Benefits of a Morning Routine",
-        "levels": {
-            "1": {
-                "title": "My Morning",
-                "target_time": "1 min",
-                "vocabulary": [
-                    {
-                        "word": "morning",
-                        "meaning": "朝、午前"
-                    },
-                    {
-                        "word": "early",
-                        "meaning": "早く、早めの"
-                    },
-                    {
-                        "word": "drink",
-                        "meaning": "飲む、飲み物"
-                    },
-                    {
-                        "word": "feel",
-                        "meaning": "感じる、気分が～である"
-                    }
-                ],
-                "grammar": "習慣を表す現在形を中心に、'I wake up' 'I drink' などの一人称単数主語の文章を練習します。'and' を使って動作を繋げる方法を学びます。",
-                "sentences": [
-                    {
-                        "en": "I wake up early every day.",
-                        "ja": "私は毎日早く起きます。"
-                    },
-                    {
-                        "en": "I drink a glass of water.",
-                        "ja": "私はコップ1杯の水を飲みます。"
-                    },
-                    {
-                        "en": "Then, I go for a walk.",
-                        "ja": "それから、散歩に行きます。"
-                    },
-                    {
-                        "en": "The air is very fresh.",
-                        "ja": "空気はとても新鮮です。"
-                    },
-                    {
-                        "en": "I feel happy and ready for work.",
-                        "ja": "私は幸せに感じ、仕事の準備ができたと感じます。"
-                    }
-                ]
-            },
-            "2": {
-                "title": "Starting the Day Right",
-                "target_time": "2 min",
-                "vocabulary": [
-                    {
-                        "word": "routine",
-                        "meaning": "ルーチン、日課、きまりきった仕事"
-                    },
-                    {
-                        "word": "healthy",
-                        "meaning": "健康的な、健康な"
-                    },
-                    {
-                        "word": "exercise",
-                        "meaning": "運動、練習、行使"
-                    },
-                    {
-                        "word": "prepare",
-                        "meaning": "準備する、用意する"
-                    }
-                ],
-                "grammar": "頻度の副詞（usually, always）の位置や、'It helps me' + 動詞の原形（～するのを助ける）という形を学びます。また、順序を示す表現（First, After that）を練習します。",
-                "sentences": [
-                    {
-                        "en": "Having a morning routine is very healthy for your body and mind.",
-                        "ja": "モーニングルーチンを持つことは、体と心にとって非常に健康的です。"
-                    },
-                    {
-                        "en": "I usually wake up at 6:00 AM to start my day.",
-                        "ja": "私は大抵、一日を始めるために午前6時に起きます。"
-                    },
-                    {
-                        "en": "First, I do some light exercise to wake up my muscles.",
-                        "ja": "まず、筋肉を目覚めさせるために軽い運動をします。"
-                    },
-                    {
-                        "en": "After that, I eat a good breakfast and prepare for my tasks.",
-                        "ja": "その後、しっかりした朝食を食べ、タスクの準備をします。"
-                    },
-                    {
-                        "en": "This routine helps me stay calm and focused all day.",
-                        "ja": "このルーチンは、一日中落ち着いて集中力を保つのを助けてくれます。"
-                    }
-                ]
-            },
-            "3": {
-                "title": "The Power of a Productive Morning",
-                "target_time": "3 min",
-                "vocabulary": [
-                    {
-                        "word": "productive",
-                        "meaning": "生産的な、実りのある"
-                    },
-                    {
-                        "word": "discipline",
-                        "meaning": "規律、しつけ、自制心"
-                    },
-                    {
-                        "word": "meditation",
-                        "meaning": "瞑想、熟考"
-                    },
-                    {
-                        "word": "habit",
-                        "meaning": "習慣、癖"
-                    },
-                    {
-                        "word": "mental",
-                        "meaning": "精神的な、心の"
-                    }
-                ],
-                "grammar": "動名詞の主語や、'by' + ～ing（～することで）という手段の表現、また 'not only ... but also' を使った情報の追加を学びます。抽象的な「精神的メリット」を説明する語彙が含まれます。",
-                "sentences": [
-                    {
-                        "en": "Establishing a morning routine requires discipline, but the benefits are worth it.",
-                        "ja": "モーニングルーチンを確立するには規律が必要ですが、その恩恵には価値があります。"
-                    },
-                    {
-                        "en": "By waking up early, you can enjoy a quiet time for meditation or reading.",
-                        "ja": "早く起きることで、瞑想や読書のための静かな時間を楽しむことができます。"
-                    },
-                    {
-                        "en": "A consistent habit not only improves your physical health but also your mental clarity.",
-                        "ja": "一貫した習慣は、身体的な健康だけでなく、精神的な明晰さも向上させます。"
-                    },
-                    {
-                        "en": "Many successful people use their mornings to plan their goals for the day.",
-                        "ja": "多くの成功者は、その日の目標を計画するために朝の時間を使います。"
-                    },
-                    {
-                        "en": "Starting the day with a sense of accomplishment makes you more productive.",
-                        "ja": "達成感を持って一日を始めることは、あなたをより生産的にします。"
-                    }
-                ]
-            },
-            "4": {
-                "title": "Circadian Rhythms and Cognitive Performance",
-                "target_time": "4 min",
-                "vocabulary": [
-                    {
-                        "word": "circadian rhythm",
-                        "meaning": "概日リズム、体内時計"
-                    },
-                    {
-                        "word": "cognitive",
-                        "meaning": "認知の、認知的な"
-                    },
-                    {
-                        "word": "performance",
-                        "meaning": "パフォーマンス、実績、遂行"
-                    },
-                    {
-                        "word": "optimization",
-                        "meaning": "最適化"
-                    },
-                    {
-                        "word": "willpower",
-                        "meaning": "意志の力、自制心"
-                    }
-                ],
-                "grammar": "関係代名詞の継続用法や、'the more ..., the more ...'（～すればするほど～）の構文、分詞構文など、論理的な深みを持たせるための文法が登場します。",
-                "sentences": [
-                    {
-                        "en": "Aligning your daily habits with your circadian rhythm is crucial for cognitive performance optimization.",
-                        "ja": "日々の習慣を概日リズム（体内時計）に合わせることは、認知パフォーマンスの最適化にとって極めて重要です。"
-                    },
-                    {
-                        "en": "The early morning hours, often free from digital distractions, provide a unique window for deep work.",
-                        "ja": "デジタルの邪魔が入らないことが多い早朝の時間は、ディープワーク（深い集中を要する作業）のための独特な窓口を提供します。"
-                    },
-                    {
-                        "en": "Scientific studies suggest that willpower is at its peak shortly after we wake up.",
-                        "ja": "科学的な研究は、意志の力は目覚めた直後にピークに達することを示唆しています。"
-                    },
-                    {
-                        "en": "Therefore, tackling the most demanding tasks first can lead to a significant increase in daily output.",
-                        "ja": "したがって、最も負荷の高いタスクに最初に取り組むことは、一日のアウトプットの大幅な増加につながります。"
-                    },
-                    {
-                        "en": "The more consistent the routine, the more effectively the brain can transition into a state of flow.",
-                        "ja": "ルーチンが一貫していればいるほど、脳はより効果的に「フロー状態」へと移行することができます。"
-                    }
-                ]
-            },
-            "5": {
-                "title": "The Architecture of Dawn: Psychological Resilience",
-                "target_time": "5 min",
-                "vocabulary": [
-                    {
-                        "word": "resilience",
-                        "meaning": "回復力、弾力性、レジリエンス"
-                    },
-                    {
-                        "word": "fortitude",
-                        "meaning": "不屈の精神、忍耐、勇気"
-                    },
-                    {
-                        "word": "proactive",
-                        "meaning": "先を見越した、積極的な、自発的な"
-                    },
-                    {
-                        "word": "reactive",
-                        "meaning": "反応的な、受け身の"
-                    },
-                    {
-                        "word": "sanctuary",
-                        "meaning": "聖域、避難所、安息の地"
-                    },
-                    {
-                        "word": "intentionality",
-                        "meaning": "意図性、指向性"
-                    }
-                ],
-                "grammar": "高度な名詞句、仮定法、強調のための倒置、比喩表現（Architecture of Dawn）など、洗練された英語表現を駆使しています。自己啓発や心理学的な文脈での論説文の形式をとっています。",
-                "sentences": [
-                    {
-                        "en": "The architecture of a morning routine serves as a foundation for psychological resilience and emotional fortitude.",
-                        "ja": "モーニングルーチンの構築は、心理的なレジリエンス（回復力）と感情的な不屈の精神の基礎として機能します。"
-                    },
-                    {
-                        "en": "By claiming the first hour of the day, individuals shift from a reactive mode to a proactive stance toward life's challenges.",
-                        "ja": "一日の最初の1時間を自分のものにすることで、個人は人生の課題に対して「反応的なモード」から「先を見越した姿勢」へと移行します。"
-                    },
-                    {
-                        "en": "This intentionality fosters a sense of agency, which is often eroded by the relentless demands of modern society.",
-                        "ja": "この意図性は、現代社会の絶え間ない要求によってしばしば損なわれる「自己効力感」を育みます。"
-                    },
-                    {
-                        "en": "The morning sanctuary allows for a period of introspection, enabling one to navigate the day with clarity and purpose.",
-                        "ja": "朝の聖域は内省の時間を与え、明晰さと目的を持って一日を乗り切ることを可能にします。"
-                    },
-                    {
-                        "en": "Ultimately, the discipline of dawn is not merely about productivity, but about the cultivation of a balanced and meaningful existence.",
-                        "ja": "最終的に、夜明けの規律は単なる生産性に関するものではなく、バランスの取れた意味のある実存を育むことに関するものなのです。"
-                    }
-                ]
-            }
-        },
-        "id": "adbc030e-8efa-4a63-bac1-cbaf08118fea",
-        "date": "2026-05-06"
     }
 ]
